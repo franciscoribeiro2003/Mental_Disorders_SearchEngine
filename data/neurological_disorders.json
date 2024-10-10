@@ -1,0 +1,3012 @@
+[
+    {
+        "name": "Abulia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Abulia",
+        "content": ""
+    },
+    {
+        "name": "Achromatopsia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Achromatopsia",
+        "content": ""
+    },
+    {
+        "name": "Acquired brain injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Acquired_brain_injury",
+        "content": ""
+    },
+    {
+        "name": "Agraphia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Agraphia",
+        "content": ""
+    },
+    {
+        "name": "Agnosia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Agnosia",
+        "content": ""
+    },
+    {
+        "name": "Aicardi syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Aicardi_syndrome",
+        "content": ""
+    },
+    {
+        "name": "AIDS",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/AIDS",
+        "content": ""
+    },
+    {
+        "name": "Akinetopsia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Akinetopsia",
+        "content": ""
+    },
+    {
+        "name": "Alexander Disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Alexander_Disease",
+        "content": ""
+    },
+    {
+        "name": "Alien hand syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Alien_hand_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Allan\u2013Herndon\u2013Dudley syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Allan%E2%80%93Herndon%E2%80%93Dudley_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Alternating hemiplegia of childhood",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Alternating_hemiplegia_of_childhood",
+        "content": ""
+    },
+    {
+        "name": "Alzheimer's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Alzheimer%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Amaurosis fugax",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Amaurosis_fugax",
+        "content": ""
+    },
+    {
+        "name": "Amnesia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Amnesia",
+        "content": ""
+    },
+    {
+        "name": "Amyotrophic lateral sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Amyotrophic_lateral_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Anencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Anencephaly",
+        "content": ""
+    },
+    {
+        "name": "Intracranial aneurysm",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Intracranial_aneurysm",
+        "content": ""
+    },
+    {
+        "name": "Angelman syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Angelman_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Anosognosia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Anosognosia",
+        "content": ""
+    },
+    {
+        "name": "Aphasia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Aphasia",
+        "content": ""
+    },
+    {
+        "name": "Aphantasia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Aphantasia",
+        "content": ""
+    },
+    {
+        "name": "Apraxia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Apraxia",
+        "content": ""
+    },
+    {
+        "name": "Arachnoiditis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Arachnoiditis",
+        "content": ""
+    },
+    {
+        "name": "Arnold\u2013Chiari malformation",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Arnold%E2%80%93Chiari_malformation",
+        "content": ""
+    },
+    {
+        "name": "Asomatognosia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Asomatognosia",
+        "content": ""
+    },
+    {
+        "name": "Asperger syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Asperger_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Ataxia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Ataxia",
+        "content": ""
+    },
+    {
+        "name": "ATR-16 syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/ATR-16_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Attention deficit hyperactivity disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+        "content": ""
+    },
+    {
+        "name": "Attention deficit disorder without hyperactivity",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Attention_deficit_disorder_without_hyperactivity",
+        "content": ""
+    },
+    {
+        "name": "Auditory processing disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Auditory_processing_disorder",
+        "content": ""
+    },
+    {
+        "name": "Autism spectrum disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Autism_spectrum_disorder",
+        "content": ""
+    },
+    {
+        "name": "Back pain",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Back_pain",
+        "content": ""
+    },
+    {
+        "name": "Beh\u00e7et's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Beh%C3%A7et%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Bell's palsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Bell%27s_palsy",
+        "content": ""
+    },
+    {
+        "name": "Bipolar disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Bipolar_disorder",
+        "content": ""
+    },
+    {
+        "name": "Blindsight",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Blindsight",
+        "content": ""
+    },
+    {
+        "name": "Blindness",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Blindness",
+        "content": ""
+    },
+    {
+        "name": "Blurred vision",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Blurred_vision",
+        "content": ""
+    },
+    {
+        "name": "Brain damage",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Brain_damage",
+        "content": ""
+    },
+    {
+        "name": "Brachial plexus injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Brachial_plexus_injury",
+        "content": ""
+    },
+    {
+        "name": "Brain death",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Brain_death",
+        "content": ""
+    },
+    {
+        "name": "Head injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Head_injury",
+        "content": ""
+    },
+    {
+        "name": "Brain infarction",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Brain_infarction",
+        "content": ""
+    },
+    {
+        "name": "Brain tumor",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Brain_tumor",
+        "content": ""
+    },
+    {
+        "name": "Brody myopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Brody_myopathy",
+        "content": ""
+    },
+    {
+        "name": "Canavan disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Canavan_disease",
+        "content": ""
+    },
+    {
+        "name": "Capgras delusion",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Capgras_delusion",
+        "content": ""
+    },
+    {
+        "name": "Carpal tunnel syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Causalgia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Causalgia",
+        "content": ""
+    },
+    {
+        "name": "Central pain syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Central_pain_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Central pontine myelinolysis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Central_pontine_myelinolysis",
+        "content": ""
+    },
+    {
+        "name": "Centronuclear myopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Centronuclear_myopathy",
+        "content": ""
+    },
+    {
+        "name": "Cephalic disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cephalic_disorder",
+        "content": ""
+    },
+    {
+        "name": "Cerebral aneurysm",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebral_aneurysm",
+        "content": ""
+    },
+    {
+        "name": "Cerebral arteriosclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebral_arteriosclerosis",
+        "content": ""
+    },
+    {
+        "name": "Cerebral atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebral_atrophy",
+        "content": ""
+    },
+    {
+        "name": "CADASIL syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/CADASIL_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Cerebral dysgenesis\u2013neuropathy\u2013ichthyosis\u2013keratoderma syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebral_dysgenesis%E2%80%93neuropathy%E2%80%93ichthyosis%E2%80%93keratoderma_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Cerebral gigantism",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebral_gigantism",
+        "content": ""
+    },
+    {
+        "name": "Cerebral palsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebral_palsy",
+        "content": ""
+    },
+    {
+        "name": "Cerebral vasculitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebral_vasculitis",
+        "content": ""
+    },
+    {
+        "name": "Cerebrospinal fluid leak",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cerebrospinal_fluid_leak",
+        "content": ""
+    },
+    {
+        "name": "Cervical spinal stenosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cervical_spinal_stenosis",
+        "content": ""
+    },
+    {
+        "name": "Charcot\u2013Marie\u2013Tooth disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Charcot%E2%80%93Marie%E2%80%93Tooth_disease",
+        "content": ""
+    },
+    {
+        "name": "Chiari malformation",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Chiari_malformation",
+        "content": ""
+    },
+    {
+        "name": "Chorea",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Chorea",
+        "content": ""
+    },
+    {
+        "name": "Chronic fatigue syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Chronic_fatigue_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Chronic inflammatory demyelinating polyneuropathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Chronic_inflammatory_demyelinating_polyneuropathy",
+        "content": ""
+    },
+    {
+        "name": "Charles bonnet syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Charles_bonnet_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Chronic pain",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Chronic_pain",
+        "content": ""
+    },
+    {
+        "name": "Cluster headache",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cluster_headache",
+        "content": ""
+    },
+    {
+        "name": "Cockayne syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cockayne_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Coffin\u2013Lowry syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Coffin%E2%80%93Lowry_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Coma",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Coma",
+        "content": ""
+    },
+    {
+        "name": "Complex post-traumatic stress disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Complex_post-traumatic_stress_disorder",
+        "content": ""
+    },
+    {
+        "name": "Complex regional pain syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Complex_regional_pain_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Compression neuropathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Compression_neuropathy",
+        "content": ""
+    },
+    {
+        "name": "Congenital distal spinal muscular atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Congenital_distal_spinal_muscular_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Congenital facial diplegia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Congenital_facial_diplegia",
+        "content": ""
+    },
+    {
+        "name": "Color blindness",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Color_blindness",
+        "content": ""
+    },
+    {
+        "name": "Cornelia de Lange syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cornelia_de_Lange_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Corticobasal degeneration",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Corticobasal_degeneration",
+        "content": ""
+    },
+    {
+        "name": "Cotard delusion",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cotard_delusion",
+        "content": ""
+    },
+    {
+        "name": "Cranial arteritis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cranial_arteritis",
+        "content": ""
+    },
+    {
+        "name": "Craniosynostosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Craniosynostosis",
+        "content": ""
+    },
+    {
+        "name": "Creutzfeldt\u2013Jakob disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Creutzfeldt%E2%80%93Jakob_disease",
+        "content": ""
+    },
+    {
+        "name": "Cumulative trauma disorders",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cumulative_trauma_disorders",
+        "content": ""
+    },
+    {
+        "name": "Cushing's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cushing%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Cyclic vomiting syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cyclic_vomiting_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Cyclothymic disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cyclothymic_disorder",
+        "content": ""
+    },
+    {
+        "name": "Cytomegalic inclusion body disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cytomegalic_inclusion_body_disease",
+        "content": ""
+    },
+    {
+        "name": "Cytomegalovirus",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Cytomegalovirus",
+        "content": ""
+    },
+    {
+        "name": "Dandy\u2013Walker syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dandy%E2%80%93Walker_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Dawson disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dawson_disease",
+        "content": ""
+    },
+    {
+        "name": "De Morsier's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/De_Morsier%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Dejerine\u2013Klumpke palsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dejerine%E2%80%93Klumpke_palsy",
+        "content": ""
+    },
+    {
+        "name": "Dejerine\u2013Sottas disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dejerine%E2%80%93Sottas_disease",
+        "content": ""
+    },
+    {
+        "name": "Delayed sleep phase disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder",
+        "content": ""
+    },
+    {
+        "name": "Dementia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dementia",
+        "content": ""
+    },
+    {
+        "name": "Dermatillomania",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dermatillomania",
+        "content": ""
+    },
+    {
+        "name": "Dermatomyositis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dermatomyositis",
+        "content": ""
+    },
+    {
+        "name": "Developmental coordination disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Developmental_coordination_disorder",
+        "content": ""
+    },
+    {
+        "name": "Diabetic neuropathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Diabetic_neuropathy",
+        "content": ""
+    },
+    {
+        "name": "Disc herniation",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Disc_herniation",
+        "content": ""
+    },
+    {
+        "name": "Diffuse myelinoclastic sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Diffuse_myelinoclastic_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Diplopia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Diplopia",
+        "content": ""
+    },
+    {
+        "name": "Disorders of consciousness",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Disorders_of_consciousness",
+        "content": ""
+    },
+    {
+        "name": "Distal hereditary motor neuropathy type V",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Distal_hereditary_motor_neuropathy_type_V",
+        "content": ""
+    },
+    {
+        "name": "Distal spinal muscular atrophy type 1",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Distal_spinal_muscular_atrophy_type_1",
+        "content": ""
+    },
+    {
+        "name": "Distal spinal muscular atrophy type 2",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Distal_spinal_muscular_atrophy_type_2",
+        "content": ""
+    },
+    {
+        "name": "Dizziness",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dizziness",
+        "content": ""
+    },
+    {
+        "name": "Down syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Down_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Dravet syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dravet_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Duchenne muscular dystrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Duchenne_muscular_dystrophy",
+        "content": ""
+    },
+    {
+        "name": "Dysarthria",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dysarthria",
+        "content": ""
+    },
+    {
+        "name": "Dysautonomia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dysautonomia",
+        "content": ""
+    },
+    {
+        "name": "Dyscalculia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dyscalculia",
+        "content": ""
+    },
+    {
+        "name": "Dysphagia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dysphagia",
+        "content": ""
+    },
+    {
+        "name": "Dysgraphia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dysgraphia",
+        "content": ""
+    },
+    {
+        "name": "Dyskinesia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dyskinesia",
+        "content": ""
+    },
+    {
+        "name": "Dyslexia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dyslexia",
+        "content": ""
+    },
+    {
+        "name": "Dystonia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Dystonia",
+        "content": ""
+    },
+    {
+        "name": "Empty sella syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Empty_sella_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Encephalitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Encephalitis",
+        "content": ""
+    },
+    {
+        "name": "Encephalocele",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Encephalocele",
+        "content": ""
+    },
+    {
+        "name": "Encephalopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Encephalopathy",
+        "content": ""
+    },
+    {
+        "name": "Encephalotrigeminal Angiomatosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Encephalotrigeminal_Angiomatosis",
+        "content": ""
+    },
+    {
+        "name": "Encopresis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Encopresis",
+        "content": ""
+    },
+    {
+        "name": "Enuresis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Enuresis",
+        "content": ""
+    },
+    {
+        "name": "Epilepsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Epilepsy",
+        "content": ""
+    },
+    {
+        "name": "Epilepsy-intellectual disability in females",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Epilepsy-intellectual_disability_in_females",
+        "content": ""
+    },
+    {
+        "name": "Erb's palsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Erb%27s_palsy",
+        "content": ""
+    },
+    {
+        "name": "Erythromelalgia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Erythromelalgia",
+        "content": ""
+    },
+    {
+        "name": "Essential tremor",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Essential_tremor",
+        "content": ""
+    },
+    {
+        "name": "Exploding head syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Exploding_head_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Fabry's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fabry%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Fahr's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fahr%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Fainting",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fainting",
+        "content": ""
+    },
+    {
+        "name": "Familial spastic paralysis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Familial_spastic_paralysis",
+        "content": ""
+    },
+    {
+        "name": "Fetal alcohol syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fetal_alcohol_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Fever",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fever",
+        "content": ""
+    },
+    {
+        "name": "Fisher syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fisher_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Fibromyalgia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fibromyalgia",
+        "content": ""
+    },
+    {
+        "name": "Foville's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Foville%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Fragile X syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fragile_X_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Fragile X-associated tremor/ataxia syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Fragile_X-associated_tremor/ataxia_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Friedreich's ataxia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Friedreich%27s_ataxia",
+        "content": ""
+    },
+    {
+        "name": "Frontotemporal dementia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Frontotemporal_dementia",
+        "content": ""
+    },
+    {
+        "name": "Functional neurological symptom disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Functional_neurological_symptom_disorder",
+        "content": ""
+    },
+    {
+        "name": "Gaucher's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Gaucher%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Generalized anxiety disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Generalized_anxiety_disorder",
+        "content": ""
+    },
+    {
+        "name": "Generalized epilepsy with febrile seizures plus",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Generalized_epilepsy_with_febrile_seizures_plus",
+        "content": ""
+    },
+    {
+        "name": "Gerstmann's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Gerstmann%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Giant cell arteritis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Giant_cell_arteritis",
+        "content": ""
+    },
+    {
+        "name": "Giant cell inclusion disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Giant_cell_inclusion_disease",
+        "content": ""
+    },
+    {
+        "name": "Globoid cell leukodystrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Globoid_cell_leukodystrophy",
+        "content": ""
+    },
+    {
+        "name": "Gray matter heterotopia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Gray_matter_heterotopia",
+        "content": ""
+    },
+    {
+        "name": "Guillain\u2013Barr\u00e9 syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Guillain%E2%80%93Barr%C3%A9_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Head injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Head_injury",
+        "content": ""
+    },
+    {
+        "name": "Headache",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Headache",
+        "content": ""
+    },
+    {
+        "name": "Hemicrania continua",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hemicrania_continua",
+        "content": ""
+    },
+    {
+        "name": "Hemifacial spasm",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hemifacial_spasm",
+        "content": ""
+    },
+    {
+        "name": "Hemispatial neglect",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hemispatial_neglect",
+        "content": ""
+    },
+    {
+        "name": "Hereditary motor neuropathies",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hereditary_motor_neuropathies",
+        "content": ""
+    },
+    {
+        "name": "Hereditary spastic paraplegia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hereditary_spastic_paraplegia",
+        "content": ""
+    },
+    {
+        "name": "Heredopathia atactica polyneuritiformis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Heredopathia_atactica_polyneuritiformis",
+        "content": ""
+    },
+    {
+        "name": "Herpes zoster",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Herpes_zoster",
+        "content": ""
+    },
+    {
+        "name": "Herpes zoster",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Herpes_zoster",
+        "content": ""
+    },
+    {
+        "name": "Hirayama syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hirayama_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Hirschsprung's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hirschsprung%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Holmes\u2013Adie syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Holmes%E2%80%93Adie_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Holoprosencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Holoprosencephaly",
+        "content": ""
+    },
+    {
+        "name": "HTLV-1 associated myelopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/HTLV-1_associated_myelopathy",
+        "content": ""
+    },
+    {
+        "name": "Huntington's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Huntington%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Hydrocephalia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hydrocephalia",
+        "content": ""
+    },
+    {
+        "name": "Hydranencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hydranencephaly",
+        "content": ""
+    },
+    {
+        "name": "Hydrocephalus",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hydrocephalus",
+        "content": ""
+    },
+    {
+        "name": "Hypercortisolism",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hypercortisolism",
+        "content": ""
+    },
+    {
+        "name": "Hypoalgesia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hypoalgesia",
+        "content": ""
+    },
+    {
+        "name": "Hypoesthesia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hypoesthesia",
+        "content": ""
+    },
+    {
+        "name": "Hypoxia (medical)",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Hypoxia_(medical)",
+        "content": ""
+    },
+    {
+        "name": "Encephalitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Encephalitis",
+        "content": ""
+    },
+    {
+        "name": "Inclusion body myositis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Inclusion_body_myositis",
+        "content": ""
+    },
+    {
+        "name": "Incontinentia pigmenti",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Incontinentia_pigmenti",
+        "content": ""
+    },
+    {
+        "name": "Infantile spasms",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Infantile_spasms",
+        "content": ""
+    },
+    {
+        "name": "Inflammatory myopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Inflammatory_myopathy",
+        "content": ""
+    },
+    {
+        "name": "Intellectual disability",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Intellectual_disability",
+        "content": ""
+    },
+    {
+        "name": "Intracranial cyst",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Intracranial_cyst",
+        "content": ""
+    },
+    {
+        "name": "Intracranial hypertension",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Intracranial_hypertension",
+        "content": ""
+    },
+    {
+        "name": "Isodicentric 15",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Isodicentric_15",
+        "content": ""
+    },
+    {
+        "name": "Joubert syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Joubert_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Karak syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Karak_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Kearns\u2013Sayre syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Kearns%E2%80%93Sayre_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Kinsbourne syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Kinsbourne_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Kleine\u2013Levin syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Kleine%E2%80%93Levin_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Klippel Feil syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Klippel_Feil_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Krabbe disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Krabbe_disease",
+        "content": ""
+    },
+    {
+        "name": "Korsakoff Syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Korsakoff_Syndrome",
+        "content": ""
+    },
+    {
+        "name": "Kufor\u2013Rakeb syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Kufor%E2%80%93Rakeb_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Spinal muscular atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spinal_muscular_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Lafora disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lafora_disease",
+        "content": ""
+    },
+    {
+        "name": "Lambert\u2013Eaton myasthenic syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lambert%E2%80%93Eaton_myasthenic_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Landau\u2013Kleffner syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Landau%E2%80%93Kleffner_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Wallenberg's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Wallenberg%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Learning disability",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Learning_disability",
+        "content": ""
+    },
+    {
+        "name": "Leigh's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Leigh%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Lennox\u2013Gastaut syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lennox%E2%80%93Gastaut_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Lesch\u2013Nyhan syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lesch%E2%80%93Nyhan_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Leukodystrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Leukodystrophy",
+        "content": ""
+    },
+    {
+        "name": "Leukoencephalopathy with vanishing white matter",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Leukoencephalopathy_with_vanishing_white_matter",
+        "content": ""
+    },
+    {
+        "name": "Lewy body dementia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lewy_body_dementia",
+        "content": ""
+    },
+    {
+        "name": "Lissencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lissencephaly",
+        "content": ""
+    },
+    {
+        "name": "Locked-in syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Locked-in_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Amyotrophic lateral sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Amyotrophic_lateral_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Lumbar disc disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lumbar_disc_disease",
+        "content": ""
+    },
+    {
+        "name": "Lumbar hernia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lumbar_hernia",
+        "content": ""
+    },
+    {
+        "name": "Lumbar spinal stenosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lumbar_spinal_stenosis",
+        "content": ""
+    },
+    {
+        "name": "Lupus erythematosus",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lupus_erythematosus",
+        "content": ""
+    },
+    {
+        "name": "Lyme disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Lyme_disease",
+        "content": ""
+    },
+    {
+        "name": "Machado\u2013Joseph disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Machado%E2%80%93Joseph_disease",
+        "content": ""
+    },
+    {
+        "name": "Macrencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Macrencephaly",
+        "content": ""
+    },
+    {
+        "name": "Macrocephalia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Macrocephalia",
+        "content": ""
+    },
+    {
+        "name": "Macropsia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Macropsia",
+        "content": ""
+    },
+    {
+        "name": "Mal de debarquement",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Mal_de_debarquement",
+        "content": ""
+    },
+    {
+        "name": "Megalencephalic leukoencephalopathy with subcortical cysts",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Megalencephalic_leukoencephalopathy_with_subcortical_cysts",
+        "content": ""
+    },
+    {
+        "name": "Megalencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Megalencephaly",
+        "content": ""
+    },
+    {
+        "name": "Melkersson\u2013Rosenthal syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Melkersson%E2%80%93Rosenthal_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Menieres disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Menieres_disease",
+        "content": ""
+    },
+    {
+        "name": "Meningitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Meningitis",
+        "content": ""
+    },
+    {
+        "name": "Menkes disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Menkes_disease",
+        "content": ""
+    },
+    {
+        "name": "Metachromatic leukodystrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Metachromatic_leukodystrophy",
+        "content": ""
+    },
+    {
+        "name": "Microcephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Microcephaly",
+        "content": ""
+    },
+    {
+        "name": "Micropsia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Micropsia",
+        "content": ""
+    },
+    {
+        "name": "Migraine",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Migraine",
+        "content": ""
+    },
+    {
+        "name": "Mild brain injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Mild_brain_injury",
+        "content": ""
+    },
+    {
+        "name": "Miller Fisher syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Miller_Fisher_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Mini-stroke",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Mini-stroke",
+        "content": ""
+    },
+    {
+        "name": "Misophonia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Misophonia",
+        "content": ""
+    },
+    {
+        "name": "Mitochondrial myopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Mitochondrial_myopathy",
+        "content": ""
+    },
+    {
+        "name": "Mobius syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Mobius_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Monomelic amyotrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Monomelic_amyotrophy",
+        "content": ""
+    },
+    {
+        "name": "Morvan syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Morvan_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Amyotrophic lateral sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Amyotrophic_lateral_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Motor skills disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Motor_skills_disorder",
+        "content": ""
+    },
+    {
+        "name": "Moyamoya disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Moyamoya_disease",
+        "content": ""
+    },
+    {
+        "name": "Mucopolysaccharidoses",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Mucopolysaccharidoses",
+        "content": ""
+    },
+    {
+        "name": "Multifocal motor neuropathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Multifocal_motor_neuropathy",
+        "content": ""
+    },
+    {
+        "name": "Multi-infarct dementia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Multi-infarct_dementia",
+        "content": ""
+    },
+    {
+        "name": "Multiple sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Multiple_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Multiple system atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Multiple_system_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Muscular dystrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Muscular_dystrophy",
+        "content": ""
+    },
+    {
+        "name": "Myalgic encephalomyelitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Myalgic_encephalomyelitis",
+        "content": ""
+    },
+    {
+        "name": "Myasthenia gravis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Myasthenia_gravis",
+        "content": ""
+    },
+    {
+        "name": "Diffuse myelinoclastic sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Diffuse_myelinoclastic_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Myoclonic Encephalopathy of infants",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Myoclonic_Encephalopathy_of_infants",
+        "content": ""
+    },
+    {
+        "name": "Myoclonus",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Myoclonus",
+        "content": ""
+    },
+    {
+        "name": "Myopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Myopathy",
+        "content": ""
+    },
+    {
+        "name": "Myotonia congenita",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Myotonia_congenita",
+        "content": ""
+    },
+    {
+        "name": "Centronuclear myopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Centronuclear_myopathy",
+        "content": ""
+    },
+    {
+        "name": "Narcolepsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Narcolepsy",
+        "content": ""
+    },
+    {
+        "name": "Neuralgia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neuralgia",
+        "content": ""
+    },
+    {
+        "name": "Neuro-Beh\u00e7et's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neuro-Beh%C3%A7et%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Neurofibromatosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neurofibromatosis",
+        "content": ""
+    },
+    {
+        "name": "Neuroleptic malignant syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neuroleptic_malignant_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Neuromyotonia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neuromyotonia",
+        "content": ""
+    },
+    {
+        "name": "Neuronal ceroid lipofuscinosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neuronal_ceroid_lipofuscinosis",
+        "content": ""
+    },
+    {
+        "name": "Neuronal migration disorders",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neuronal_migration_disorders",
+        "content": ""
+    },
+    {
+        "name": "Neuropathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neuropathy",
+        "content": ""
+    },
+    {
+        "name": "Neurosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Neurosis",
+        "content": ""
+    },
+    {
+        "name": "Niemann\u2013Pick disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Niemann%E2%80%93Pick_disease",
+        "content": ""
+    },
+    {
+        "name": "Non-24-hour sleep\u2013wake disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder",
+        "content": ""
+    },
+    {
+        "name": "Nonverbal learning disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Nonverbal_learning_disorder",
+        "content": ""
+    },
+    {
+        "name": "Occipital Neuralgia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Occipital_Neuralgia",
+        "content": ""
+    },
+    {
+        "name": "Occult spinal dysraphism sequence",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Occult_spinal_dysraphism_sequence",
+        "content": ""
+    },
+    {
+        "name": "Ohtahara syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Ohtahara_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Olivopontocerebellar atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Olivopontocerebellar_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Opsoclonus myoclonus syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Opsoclonus_myoclonus_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Optic neuritis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Optic_neuritis",
+        "content": ""
+    },
+    {
+        "name": "Orthostatic hypotension",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Orthostatic_hypotension",
+        "content": ""
+    },
+    {
+        "name": "O'Sullivan\u2013McLeod syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/O%27Sullivan%E2%80%93McLeod_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Otosclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Otosclerosis",
+        "content": ""
+    },
+    {
+        "name": "Overuse syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Overuse_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Palinopsia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Palinopsia",
+        "content": ""
+    },
+    {
+        "name": "PANDAS",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/PANDAS",
+        "content": ""
+    },
+    {
+        "name": "Pantothenate kinase-associated neurodegeneration",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Pantothenate_kinase-associated_neurodegeneration",
+        "content": ""
+    },
+    {
+        "name": "Paraplegia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Paraplegia",
+        "content": ""
+    },
+    {
+        "name": "Paralysis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Paralysis",
+        "content": ""
+    },
+    {
+        "name": "Paramyotonia congenita",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Paramyotonia_congenita",
+        "content": ""
+    },
+    {
+        "name": "Paresthesia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Paresthesia",
+        "content": ""
+    },
+    {
+        "name": "Paresis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Paresis",
+        "content": ""
+    },
+    {
+        "name": "Parkinson's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Parkinson%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Paraneoplastic disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Paraneoplastic_disease",
+        "content": ""
+    },
+    {
+        "name": "Paroxysmal attacks",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Paroxysmal_attacks",
+        "content": ""
+    },
+    {
+        "name": "Parry\u2013Romberg syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Parry%E2%80%93Romberg_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Pelizaeus\u2013Merzbacher disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Pelizaeus%E2%80%93Merzbacher_disease",
+        "content": ""
+    },
+    {
+        "name": "Periodic paralyses",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Periodic_paralyses",
+        "content": ""
+    },
+    {
+        "name": "Peripheral neuropathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Peripheral_neuropathy",
+        "content": ""
+    },
+    {
+        "name": "Pervasive developmental disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Pervasive_developmental_disorder",
+        "content": ""
+    },
+    {
+        "name": "Phantom limb",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Phantom_limb",
+        "content": ""
+    },
+    {
+        "name": "Photic sneeze reflex",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Photic_sneeze_reflex",
+        "content": ""
+    },
+    {
+        "name": "Phytanic acid storage disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Phytanic_acid_storage_disease",
+        "content": ""
+    },
+    {
+        "name": "Pick's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Pick%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Pinched nerve",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Pinched_nerve",
+        "content": ""
+    },
+    {
+        "name": "Pituitary tumors",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Pituitary_tumors",
+        "content": ""
+    },
+    {
+        "name": "Polyneuropathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Polyneuropathy",
+        "content": ""
+    },
+    {
+        "name": "Polymicrogyria",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Polymicrogyria",
+        "content": ""
+    },
+    {
+        "name": "Polio",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Polio",
+        "content": ""
+    },
+    {
+        "name": "Polymicrogyria",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Polymicrogyria",
+        "content": ""
+    },
+    {
+        "name": "Polymyositis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Polymyositis",
+        "content": ""
+    },
+    {
+        "name": "Porencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Porencephaly",
+        "content": ""
+    },
+    {
+        "name": "Polio",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Polio",
+        "content": ""
+    },
+    {
+        "name": "Postherpetic neuralgia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Postherpetic_neuralgia",
+        "content": ""
+    },
+    {
+        "name": "Posttraumatic stress disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder",
+        "content": ""
+    },
+    {
+        "name": "Postural hypotension",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Postural_hypotension",
+        "content": ""
+    },
+    {
+        "name": "Postural orthostatic tachycardia syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Prader\u2013Willi syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Prader%E2%80%93Willi_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Primary lateral sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Primary_lateral_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Prion",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Prion",
+        "content": ""
+    },
+    {
+        "name": "Progressive hemifacial atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Progressive_hemifacial_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Progressive multifocal leukoencephalopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Progressive_multifocal_leukoencephalopathy",
+        "content": ""
+    },
+    {
+        "name": "Progressive supranuclear palsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Progressive_supranuclear_palsy",
+        "content": ""
+    },
+    {
+        "name": "Prosopagnosia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Prosopagnosia",
+        "content": ""
+    },
+    {
+        "name": "Pseudotumor cerebri",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Pseudotumor_cerebri",
+        "content": ""
+    },
+    {
+        "name": "Quadrantanopia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Quadrantanopia",
+        "content": ""
+    },
+    {
+        "name": "Quadriplegia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Quadriplegia",
+        "content": ""
+    },
+    {
+        "name": "Rabies",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Rabies",
+        "content": ""
+    },
+    {
+        "name": "Radiculopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Radiculopathy",
+        "content": ""
+    },
+    {
+        "name": "Ramsay Hunt syndrome type I",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Ramsay_Hunt_syndrome_type_I",
+        "content": ""
+    },
+    {
+        "name": "Ramsay Hunt syndrome type II",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Ramsay_Hunt_syndrome_type_II",
+        "content": ""
+    },
+    {
+        "name": "Ramsay\u2013Hunt syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Ramsay%E2%80%93Hunt_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Rasmussen encephalitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Rasmussen_encephalitis",
+        "content": ""
+    },
+    {
+        "name": "Reflex neurovascular dystrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Reflex_neurovascular_dystrophy",
+        "content": ""
+    },
+    {
+        "name": "Refsum disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Refsum_disease",
+        "content": ""
+    },
+    {
+        "name": "REM sleep behavior disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/REM_sleep_behavior_disorder",
+        "content": ""
+    },
+    {
+        "name": "Repetitive stress injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Repetitive_stress_injury",
+        "content": ""
+    },
+    {
+        "name": "Restless legs syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Restless_legs_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Retrovirus-associated myelopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Retrovirus-associated_myelopathy",
+        "content": ""
+    },
+    {
+        "name": "Rett syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Rett_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Reye's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Reye%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Rhythmic movement disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Rhythmic_movement_disorder",
+        "content": ""
+    },
+    {
+        "name": "Romberg syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Romberg_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Savant syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Savant_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Chorea (disease)",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Chorea_(disease)",
+        "content": ""
+    },
+    {
+        "name": "Sandhoff disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sandhoff_disease",
+        "content": ""
+    },
+    {
+        "name": "Sanfilippo syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sanfilippo_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Schilder's disease (disambiguation)",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Schilder%27s_disease_(disambiguation)",
+        "content": ""
+    },
+    {
+        "name": "Schizencephaly",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Schizencephaly",
+        "content": ""
+    },
+    {
+        "name": "Sclerosis (medicine)",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sclerosis_(medicine)",
+        "content": ""
+    },
+    {
+        "name": "Seizures",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Seizures",
+        "content": ""
+    },
+    {
+        "name": "Sensory processing disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sensory_processing_disorder",
+        "content": ""
+    },
+    {
+        "name": "Septo-optic dysplasia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Septo-optic_dysplasia",
+        "content": ""
+    },
+    {
+        "name": "Shaken baby syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Shaken_baby_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Herpes zoster",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Herpes_zoster",
+        "content": ""
+    },
+    {
+        "name": "Shy\u2013Drager syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Shy%E2%80%93Drager_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Sj\u00f6gren's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sj%C3%B6gren%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Sleep apnea",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sleep_apnea",
+        "content": ""
+    },
+    {
+        "name": "African trypanosomiasis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/African_trypanosomiasis",
+        "content": ""
+    },
+    {
+        "name": "Slurred speech",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Slurred_speech",
+        "content": ""
+    },
+    {
+        "name": "Snatiation",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Snatiation",
+        "content": ""
+    },
+    {
+        "name": "Sotos syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sotos_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Spasticity",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spasticity",
+        "content": ""
+    },
+    {
+        "name": "Spina bifida",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spina_bifida",
+        "content": ""
+    },
+    {
+        "name": "Spinal and bulbar muscular atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spinal_and_bulbar_muscular_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Spinal cord injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spinal_cord_injury",
+        "content": ""
+    },
+    {
+        "name": "Spinal cord",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spinal_cord",
+        "content": ""
+    },
+    {
+        "name": "Spinal muscular atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spinal_muscular_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Distal spinal muscular atrophy type 1",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Distal_spinal_muscular_atrophy_type_1",
+        "content": ""
+    },
+    {
+        "name": "Spinocerebellar ataxia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spinocerebellar_ataxia",
+        "content": ""
+    },
+    {
+        "name": "Split-brain",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Split-brain",
+        "content": ""
+    },
+    {
+        "name": "Progressive supranuclear palsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Progressive_supranuclear_palsy",
+        "content": ""
+    },
+    {
+        "name": "Stiff-person syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Stiff-person_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Stroke",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Stroke",
+        "content": ""
+    },
+    {
+        "name": "Sturge\u2013Weber syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sturge%E2%80%93Weber_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Stuttering",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Stuttering",
+        "content": ""
+    },
+    {
+        "name": "Subacute sclerosing panencephalitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Subacute_sclerosing_panencephalitis",
+        "content": ""
+    },
+    {
+        "name": "Subcortical arteriosclerotic encephalopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Subcortical_arteriosclerotic_encephalopathy",
+        "content": ""
+    },
+    {
+        "name": "Superficial siderosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Superficial_siderosis",
+        "content": ""
+    },
+    {
+        "name": "Sydenham's chorea",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Sydenham%27s_chorea",
+        "content": ""
+    },
+    {
+        "name": "Syncope (medicine)",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Syncope_(medicine)",
+        "content": ""
+    },
+    {
+        "name": "Synesthesia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Synesthesia",
+        "content": ""
+    },
+    {
+        "name": "Syringomyelia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Syringomyelia",
+        "content": ""
+    },
+    {
+        "name": "Substance use disorder",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Substance_use_disorder",
+        "content": ""
+    },
+    {
+        "name": "Traumatic encephalopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Traumatic_encephalopathy",
+        "content": ""
+    },
+    {
+        "name": "Tardive dyskinesia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tardive_dyskinesia",
+        "content": ""
+    },
+    {
+        "name": "Tarlov cyst",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tarlov_cyst",
+        "content": ""
+    },
+    {
+        "name": "Tarsal tunnel syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tarsal_tunnel_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Tay\u2013Sachs disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tay%E2%80%93Sachs_disease",
+        "content": ""
+    },
+    {
+        "name": "Temporal arteritis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Temporal_arteritis",
+        "content": ""
+    },
+    {
+        "name": "Temporal lobe epilepsy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Temporal_lobe_epilepsy",
+        "content": ""
+    },
+    {
+        "name": "Tetanus",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tetanus",
+        "content": ""
+    },
+    {
+        "name": "Tethered spinal cord syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tethered_spinal_cord_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Thalamocortical dysrhythmia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Thalamocortical_dysrhythmia",
+        "content": ""
+    },
+    {
+        "name": "Thomsen disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Thomsen_disease",
+        "content": ""
+    },
+    {
+        "name": "Thoracic outlet syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Thoracic_outlet_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Tic Douloureux",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tic_Douloureux",
+        "content": ""
+    },
+    {
+        "name": "Tinnitus",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tinnitus",
+        "content": ""
+    },
+    {
+        "name": "Todd's paralysis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Todd%27s_paralysis",
+        "content": ""
+    },
+    {
+        "name": "Tourette syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tourette_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Toxic encephalopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Toxic_encephalopathy",
+        "content": ""
+    },
+    {
+        "name": "Transient ischemic attack",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Transient_ischemic_attack",
+        "content": ""
+    },
+    {
+        "name": "Bovine spongiform encephalopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Bovine_spongiform_encephalopathy",
+        "content": ""
+    },
+    {
+        "name": "Transverse myelitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Transverse_myelitis",
+        "content": ""
+    },
+    {
+        "name": "Traumatic brain injury",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Traumatic_brain_injury",
+        "content": ""
+    },
+    {
+        "name": "Tremor",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tremor",
+        "content": ""
+    },
+    {
+        "name": "Trichotillomania",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Trichotillomania",
+        "content": ""
+    },
+    {
+        "name": "Trigeminal neuralgia",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Trigeminal_neuralgia",
+        "content": ""
+    },
+    {
+        "name": "Tropical spastic paraparesis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tropical_spastic_paraparesis",
+        "content": ""
+    },
+    {
+        "name": "Trypanosomiasis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Trypanosomiasis",
+        "content": ""
+    },
+    {
+        "name": "Tuberous sclerosis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Tuberous_sclerosis",
+        "content": ""
+    },
+    {
+        "name": "Unconsciousness",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Unconsciousness",
+        "content": ""
+    },
+    {
+        "name": "Unverricht\u2013Lundborg disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Unverricht%E2%80%93Lundborg_disease",
+        "content": ""
+    },
+    {
+        "name": "Vestibular schwannoma",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Vestibular_schwannoma",
+        "content": ""
+    },
+    {
+        "name": "Vertigo",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Vertigo",
+        "content": ""
+    },
+    {
+        "name": "Viliuisk encephalomyelitis",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Viliuisk_encephalomyelitis",
+        "content": ""
+    },
+    {
+        "name": "Visual snow",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Visual_snow",
+        "content": ""
+    },
+    {
+        "name": "Von Hippel\u2013Lindau disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Von_Hippel%E2%80%93Lindau_disease",
+        "content": ""
+    },
+    {
+        "name": "Vulpian-Bernhardt Syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Vulpian-Bernhardt_Syndrome",
+        "content": ""
+    },
+    {
+        "name": "Wallenberg's syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Wallenberg%27s_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Spinal muscular atrophy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Spinal_muscular_atrophy",
+        "content": ""
+    },
+    {
+        "name": "Wernicke encephalopathy",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Wernicke_encephalopathy",
+        "content": ""
+    },
+    {
+        "name": "Wernicke Korsakoff syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Wernicke_Korsakoff_syndrome",
+        "content": ""
+    },
+    {
+        "name": "West syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/West_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Whiplash (medicine)",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Whiplash_(medicine)",
+        "content": ""
+    },
+    {
+        "name": "Williams syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Williams_syndrome",
+        "content": ""
+    },
+    {
+        "name": "Wilson's disease",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Wilson%27s_disease",
+        "content": ""
+    },
+    {
+        "name": "Witzelsucht",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Witzelsucht",
+        "content": ""
+    },
+    {
+        "name": "DFNY1",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/DFNY1",
+        "content": ""
+    },
+    {
+        "name": "Zellweger syndrome",
+        "type": "neurological disorder",
+        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Zellweger_syndrome",
+        "content": ""
+    }
+]
