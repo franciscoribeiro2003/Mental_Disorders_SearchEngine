@@ -8,6 +8,7 @@ Project for FEUP-Information Processing and Retrieval (M.EIC003) course. The pro
 | ----------------- | -------------------- |
 | Francisco Ribeiro | up202104797@fc.up.pt |
 | Marisa Azevedo    | up202108624@fc.up.pt |
+| Ricardo Ferreira  | up201907835@fe.up.pt |
 | Toni Grgurevic    | up202408625@fe.up.pt |
 
 # Project Development
