@@ -12,6 +12,8 @@ WIKI_API_URL = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 # Wikipedia base URL to scrape the full page
 WIKI_PAGE_URL = "https://en.wikipedia.org/wiki/"
 
+WIKI_DATA_BASE_URL = "https://www.wikidata.org/wiki/"
+WIKI_DATA_BASE_URL_JSON = "https://www.wikidata.org/wiki/Special:EntityData/"
 
 # Function to get disorder description from Wikipedia's API
 def get_disorder_info(disorder_name):
@@ -20,7 +22,6 @@ def get_disorder_info(disorder_name):
         response = requests.get(disorder_info_url)
         if response.status_code == 200:
             return response.json()
-            print(response.json())
     except Exception as e:
         print(f"Error fetching data for {disorder_name}: {e}")
     return {}
@@ -91,63 +92,77 @@ def description_and_content(input_filename, output_filename):
 def scrape_disorder_sections(disorder_name):
     disorder_url = WIKI_PAGE_URL + disorder_name
     print(disorder_url)
-    try:
-        response = requests.get(disorder_url)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.content, 'html.parser')
+    failed_attempts = 0
+    while True:
+        try:
+            response = requests.get(disorder_url)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
 
-            # Extract the main content of the Wikipedia page
-            content_div = soup.find('div', {'class': 'mw-parser-output'})
-            
-            # Prepare a dictionary to store sections
-            sections = {
-                "causes": "",
-                "symptoms": "",
-                "treatment": "",
-                "diagnosis": "",
-                "prevention": "",
-                "epidemiology": ""
-            }
+                # Extract the main content of the Wikipedia page
+                content_div = soup.find('div', {'class': 'mw-content-ltr mw-parser-output'})
 
-            # Keywords to identify sections based on <h2> tags
-            keywords = {
-                "causes": ["Causes"],
-                "symptoms": ["Signs and symptoms", "Symptoms", "Signs and Symptoms", "Signs" ,"signs and symptoms"],
-                "treatment": ["Treatment", "Management"],
-                "diagnosis": ["Diagnosis", "Diagnostic criteria"],
-                "prevention": ["Prevention", "Control", "Help"],
-                "epidemiology": ["Epidemiology"]
-            }
-            
-            # Flag to track which section we're currently in
-            current_section = None
-            section_content = ""
+                # Prepare a dictionary to store sections
+                sections = {
+                    "causes": "",
+                    "symptoms": "",
+                    "treatment": "",
+                    "diagnosis": "",
+                    "prevention": "",
+                    "epidemiology": ""
+                }
 
-            # Iterate through the tags to find relevant <h2> sections
-            for tag in content_div.find_all(['h2', 'h3', 'p', 'ul']):
-                if tag.name == 'h2':
-                    # Check if the header matches any of the keywords to identify sections
-                    header_text = tag.get_text().strip()
-                    print(header_text)
-                    current_section = None
-                    for section, terms in keywords.items():
-                        if any(term in header_text for term in terms):
-                            print(f"Found section: {section}")
-                            current_section = section
-                            section_content = ""
-                            break
-                elif tag.name in ['p', 'ul'] and current_section:
-                    # Append the content to the current section until the next <h2> is found
-                    section_content += tag.get_text() + "\n"
-                    sections[current_section] = section_content.strip()
-                    print(section_content)
+                # Keywords to identify sections based on <h2> tags
+                keywords = {
+                    "causes": ["Causes"],
+                    "symptoms": ["Signs and symptoms", "Symptoms", "Signs and Symptoms", "Signs", "signs and symptoms"],
+                    "treatment": ["Treatment", "Management"],
+                    "diagnosis": ["Diagnosis", "Diagnostic criteria"],
+                    "prevention": ["Prevention", "Control", "Help"],
+                    "epidemiology": ["Epidemiology"]
+                }
 
-            return sections
-        else:
-            print(f"Failed to fetch data for {disorder_name}, status code: {response.status_code}")
-    except Exception as e:
-        print(f"Error fetching content for {disorder_name}: {e}")
-    return {}
+                # Flag to track which section we're currently in
+                current_section = None
+                section_content = ""
+
+                # Iterate through the tags to find relevant <h2> sections
+                for tag in content_div.find_all(['h2', 'h3', 'p', 'ul']):
+                    if tag.name == 'h2':
+                        # Check if the header matches any of the keywords to identify sections
+                        header_text = tag.get_text().strip()
+                        print(f"H2:--{tag.name}--{header_text}")
+                        current_section = None
+                        for section, terms in keywords.items():
+                            if any(term in header_text for term in terms):
+                                print(f"FOUND_SECTION:--- {section}")
+                                current_section = section
+                                section_content = ""
+                                break
+                    elif tag.name in ['p', 'ul', 'h3'] and current_section:
+                        # Append the content to the current section until the next <h2> is found
+                        section_content += tag.get_text() + "\n"
+                        sections[current_section] = section_content.strip()
+                        print(f"SECTION ADDED---{section_content}")
+                    else:
+                        print(f"ELSE:---{tag.name}---{tag.get_text()}")
+                        print("-----------------------------------------------")
+                return sections
+            else:
+                print(f"Failed to fetch data for {disorder_name}, status code: {response.status_code}")
+                print("-----------------------------------------------")
+                failed_attempts += 1
+                if failed_attempts > 5:
+                    break
+                time.sleep(1)
+        except Exception as e:
+            print(f"Error fetching content for {disorder_name}: {e}")
+            failed_attempts += 1
+            if failed_attempts > 5:
+                break
+            time.sleep(1)
+    return ""
+
 
 # Function to update JSON with detailed sections from scraped Wikipedia content
 def update_json_with_sections(input_filename, output_filename):
@@ -173,7 +188,50 @@ def update_json_with_sections(input_filename, output_filename):
         disorder["epidemiology"] = sections.get("epidemiology", "")
 
         # Optional: You can add a short delay between requests
-        time.sleep(0.1)  # Wait 0.1 second between requests to avoid overwhelming Wikipedia's servers
+        time.sleep(0.05)  # Wait 0.1 second between requests to avoid overwhelming Wikipedia's servers
+
+    # Save the updated JSON data
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        json.dump(disorders_data, f, ensure_ascii=False, indent=4)
+
+    print(f"Updated JSON file saved as: {output_filename}")
+
+##### Mode 3  #####
+
+
+def get_WikiBase(disorder_name):
+    disorder_info = get_disorder_info(disorder_name)
+    return disorder_info.get("wikibase_item", "")
+
+def get_Revisions(disorder_name):
+    number_of_revisions = 0
+    number_of_revisions = get_disorder_info(disorder_name)
+    return number_of_revisions.get("revision", "")
+
+def addWikiDataLink(input_filename, output_filename):
+    # Load the existing JSON data
+    with open(input_filename, 'r', encoding='utf-8') as f:
+        disorders_data = json.load(f)
+
+    # Loop over each disorder and update the content
+    for disorder in disorders_data:
+        disorder_name = disorder["link"].split("/wiki/")[1]
+        print(f"Fetching Wikidata link for: {disorder['name']} ({disorder_name})")
+
+        id = get_WikiBase(disorder_name)
+
+        print(f"WikiBase ID fetched for: {disorder['name']} ({disorder_name}): {id}")
+
+        url_wikidata = WIKI_DATA_BASE_URL + id
+        url_wikidataJson = WIKI_DATA_BASE_URL_JSON + id + ".json"
+        number_of_revisions = get_Revisions(disorder_name)
+
+        disorder["wikidata_id"] = id
+        disorder["wikidata_url"] = url_wikidata
+        disorder["wikidata_url_json"] = url_wikidataJson
+        disorder["number_of_revisions"] = number_of_revisions
+
+        time.sleep(0.05)
 
     # Save the updated JSON data
     with open(output_filename, 'w', encoding='utf-8') as f:
@@ -182,6 +240,107 @@ def update_json_with_sections(input_filename, output_filename):
     print(f"Updated JSON file saved as: {output_filename}")
 
 
+##### Mode 4 #####
+def edit_content(input_filename, output_filename):
+    # Load the existing JSON data
+    with open(input_filename, 'r', encoding='utf-8') as f:
+        disorders_data = json.load(f)
+
+    # Loop over each disorder and update the content
+    for disorder in disorders_data:
+        disorder_name = disorder["link"].split("/wiki/")[1]  # Extract the Wikipedia page title from the link
+        print(f"Fetching full content for: {disorder['name']} ({disorder_name})")
+
+        # Scrape the full content from Wikipedia
+        full_content = selective_scrape_wikipedia_content(disorder_name)
+        print(f"Full content fetched for: {disorder['name']} ({disorder_name})")
+        print(full_content)
+
+        # Update the "content" field with the full content
+        disorder["content"] = full_content
+
+        time.sleep(0.05)  # Wait 0.1 second between requests to avoid overwhelming Wikipedia's servers
+
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        json.dump(disorders_data, f, ensure_ascii=False, indent=4)
+    #print("-----------------------------------------------")
+    #print("-----------------------------------------------")
+    #print(json.dumps(disorders_data, indent=4))
+
+    print(f"Updated JSON file saved as: {output_filename}")
+
+
+def selective_scrape_wikipedia_content(disorder_name):
+    disorder_url = WIKI_PAGE_URL + disorder_name
+    print(disorder_url)
+    failed_attempts = 0
+    while True:
+        try:
+            response = requests.get(disorder_url)
+            if response.status_code == 200:
+                print("RESPONSE 200")
+                soup = BeautifulSoup(response.content, 'html.parser')
+                #print(f"SOUP---{soup}")
+
+                # Extract the main content of the Wikipedia page
+                content_div = soup.find('div', {'class': 'mw-content-ltr mw-parser-output'})
+                keywords = {
+                    "causes": ["Causes"],
+                    "symptoms": ["Signs and symptoms", "Symptoms", "Signs and Symptoms", "Signs", "signs and symptoms"],
+                    "treatment": ["Treatment", "Management"],
+                    "diagnosis": ["Diagnosis", "Diagnostic criteria"],
+                    "prevention": ["Prevention", "Control", "Help"],
+                    "epidemiology": ["Epidemiology"]
+                }
+
+                # Collect all the paragraphs as text except if the paragraphs belong to a h2 and behind
+                # from the keywords provided
+
+                full_text = ""
+
+                # Flag to track if we are in a relevant section
+                in_relevant_section = False
+
+
+                # Iterate through the tags to find relevant <h2> sections
+                for tag in content_div.find_all(['h2', 'h3', 'p', 'ul']):
+                    if tag.name == 'h2':
+                        # Check if the header matches any of the keywords to identify sections
+                        header_text = tag.get_text().strip()
+                        print(f"H2:--{tag.name}--{header_text}")
+                        print("-----------------------------------------------")
+                        in_relevant_section = False
+                        for section, terms in keywords.items():
+                            if any(term in header_text for term in terms):
+                                print(f"IRRELEVANT_SECTION:---{section}")
+                                print("-----------------------------------------------")
+                                in_relevant_section = True
+                                break
+                        full_text += tag.get_text() + "\n"
+                    elif tag.name in ['p', 'ul', 'h3'] and not in_relevant_section:
+                        # Append the content to the full text if not in a relevant section
+                        full_text += tag.get_text() + "\n"
+                        print(f"P_or_UL:---{tag.name}---{tag.get_text()}")
+                        print("-----------------------------------------------")
+                    else:
+                        print(f"ELSE:---{tag.name}---{tag.get_text()}")
+                        print("-----------------------------------------------")
+                return full_text.strip()
+            else:
+                print(f"Failed to fetch data for {disorder_name}, status code: {response.status_code}")
+                print("-----------------------------------------------")
+                failed_attempts += 1
+                if failed_attempts > 5:
+                    break
+                time.sleep(1)
+        except Exception as e:
+            print(f"Error fetching content for {disorder_name}: {e}")
+            failed_attempts += 1
+            if failed_attempts > 5:
+                break
+            time.sleep(1)
+    return ""
+
 
 def main(mode):
     if mode == 1:
@@ -189,16 +348,29 @@ def main(mode):
         output_filename = 'merged_disorders_FILLED.json'
         description_and_content(input_json_file, output_filename)
     elif mode == 2:
-        input_json_file = 'merged_disorders_FILLED.json'
-        output_filename = 'merged_disorders_FILLED_WITH_SECTIONS1.json'
+        input_json_file = '/home/francisco/Desktop/MEIC_1YEAR/pri/Mental_Disorders_SearchEngine/data/merged_disorders_FILLED_WITH_PARTIAL_CONTENT.json'
+        output_filename = '/home/francisco/Desktop/MEIC_1YEAR/pri/Mental_Disorders_SearchEngine/data/disorders_all_sections_fixed.json'
         update_json_with_sections(input_json_file, output_filename)
+    elif mode == 3:
+        input_json_file = 'data/merged_disorders_FILLED_WITH_SECTIONS1.json'
+        output_filename = 'data/merged_disorders_FILLED_WITH_WIKIDATA_link.json'
+        addWikiDataLink(input_json_file, output_filename)
+    elif mode == 4:
+        input_json_file = 'data/merged_disorders_FILLED_WITH_WIKIDATA_link.json'
+        output_filename = 'data/merged_disorders_FILLED_WITH_PARTIAL_CONTENT.json'
+        #input_json_file = '/home/francisco/Desktop/MEIC_1YEAR/pri/Mental_Disorders_SearchEngine/data/debug.json'
+        #output_filename = '/home/francisco/Desktop/MEIC_1YEAR/pri/Mental_Disorders_SearchEngine/data/debug1.json'
+        edit_content(input_json_file, output_filename)
     else:
         print("Invalid mode selected. Use --help for more information.")
+
 
 if __name__ == "__main__":
     modes = {
         1: "Fill content and description of a JSON list of disorders.",
-        2: "Associate new information to a JSON list of disorders."
+        2: "Associate new information to a JSON list of disorders.",
+        3: "Associate Wikidata link to a JSON list of disorders and get the number of revisions.",
+        4: "Edit the content, scrape again the wikipedia, but this time select only a part of content"
     }
     
     parser = argparse.ArgumentParser(description="Mental disorders gathering data.")
@@ -207,6 +379,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     if args.mode is None:
+        #main(4)
         parser.print_help()
         sys.exit(1)
     
