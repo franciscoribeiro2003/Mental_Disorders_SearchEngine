@@ -543,40 +543,23 @@ def clean_json_fields(input_filename, output_filename):
     print(f"Cleaned JSON file saved as: {output_filename}")
 
 
-def main(mode):
+def main(mode, input_json_file, output_filename):
     if mode == 1:
-        input_json_file = 'merged_disorders.json'
-        output_filename = 'merged_disorders_FILLED.json'
         description_and_content(input_json_file, output_filename)
     elif mode == 2:
-        input_json_file = '/home/francisco/Desktop/MEIC_1YEAR/pri/Mental_Disorders_SearchEngine/data/merged_disorders_FILLED_WITH_PARTIAL_CONTENT.json'
-        output_filename = '/home/francisco/Desktop/MEIC_1YEAR/pri/Mental_Disorders_SearchEngine/data/disorders_all_sections_fixed.json'
         update_json_with_sections(input_json_file, output_filename)
     elif mode == 3:
-        input_json_file = 'data/merged_disorders_FILLED_WITH_SECTIONS1.json'
-        output_filename = 'data/merged_disorders_FILLED_WITH_WIKIDATA_link.json'
         addWikiDataLink(input_json_file, output_filename)
     elif mode == 4:
-        input_json_file = 'data/merged_disorders_FILLED_WITH_WIKIDATA_link.json'
-        output_filename = 'data/merged_disorders_FILLED_WITH_PARTIAL_CONTENT.json'
         edit_content(input_json_file, output_filename)
     elif mode == 5:
-        input_json_file = 'data/disorders_all_sections_fixed.json'
-        output_filename = 'data/disorders_plus_infobox.json'
         addInfobox(input_json_file, output_filename)
     elif mode == 6:
-        input_json_file = 'data/disorders_plus_infobox.json'
-        output_filename = 'data/disorders_views_plus_edits.json'
         add_views_and_edits(input_json_file, output_filename)
     elif mode == 7:
-        input_json_file = 'data/disorders_views_plus_edits.json'
-        output_filename = 'data/disorders_cleaned_final.json'
         clean_json_fields(input_json_file, output_filename)
     else:
         print("Invalid mode selected. Use --help for more information.")
-
-
-
 
 if __name__ == "__main__":
     modes = {
@@ -597,15 +580,24 @@ if __name__ == "__main__":
         'mode',
         type=int,
         choices=modes.keys(),
-        nargs='?',
         help='Options:\n' + '\n'.join([f"{k} - {v}" for k, v in modes.items()])
     )
-    
+    parser.add_argument(
+        'input_json_file',
+        type=str,
+        help='Path to the input JSON file.'
+    )
+    parser.add_argument(
+        'output_filename',
+        type=str,
+        help='Path to the output JSON file.'
+    )
+
     args = parser.parse_args()
-    
+
     if args.mode is None:
-        #main(4)
         parser.print_help()
         sys.exit(1)
-    
-    main(args.mode)
+
+    # Pass the mode, input, and output files to the main function
+    main(args.mode, args.input_json_file, args.output_filename)
