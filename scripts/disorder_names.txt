@@ -1,0 +1,685 @@
+Agoraphobia
+Generalized anxiety disorder
+Panic disorder
+Selective mutism
+Separation anxiety disorder
+Specific phobias
+Social anxiety disorder
+Dissociative identity disorder
+Dissociative amnesia
+Depersonalization-derealization disorder
+Psychogenic non-epileptic seizures
+Other specified dissociative disorder
+Unspecified dissociative disorder
+Ganser syndrome
+Disruptive mood dysregulation disorder
+Major depressive disorder
+Dysthymia
+Premenstrual dysphoric disorder
+Psychotic depression
+Seasonal affective disorder
+Atypical depression
+Catatonic depression
+Postpartum depression
+Melancholic depression
+Pervasive refusal syndrome
+Unspecified depressive disorder
+Bipolar I disorder
+Bipolar II disorder
+Bipolar disorder not otherwise specified
+Cyclothymia
+Hypomania
+Reactive attachment disorder
+Disinhibited social engagement disorder
+Post-traumatic stress disorder
+Post-traumatic embitterment disorder
+Acute stress disorder
+Adjustment disorder
+Complex post-traumatic stress disorder
+Prolonged grief disorder
+Intellectual disability
+Language disorder
+Sensory processing disorder
+Speech sound disorder
+Stuttering
+Aphasia
+Social communication disorder
+Pervasive developmental disorder
+Auditory processing disorder
+Communication disorder
+Autism spectrum disorder
+Attention deficit hyperactivity disorder
+Developmental coordination disorder
+Tourette syndrome
+Down syndrome
+Tic disorder
+Dyslexia
+Dyscalculia
+Dysgraphia
+Nonverbal learning Disorder
+Insomnia
+Hypersomnia
+Idiopathic hypersomnia
+Kleine–Levin syndrome
+Insufficient sleep syndrome
+Narcolepsy
+Restless legs syndrome
+Sleep apnea
+Night terrors
+Exploding head syndrome
+Nightmare disorder
+Rapid eye movement sleep behavior disorder
+Confusional arousals
+Sleepwalking
+Hypnagogic hallucinations
+Hypnopompic hallucinations
+Circadian rhythm sleep disorder
+Delayed sleep phase disorder
+Advanced sleep phase disorder
+Irregular sleep–wake rhythm
+Non-24-hour sleep–wake disorder
+Circadian rhythm sleep-wake disorder caused by irregular work shifts
+Jet lag
+Delirium
+Dementia
+Traumatic brain injury
+HIV-associated neurocognitive disorder
+Amnesia
+Chronic traumatic encephalopathy
+Agnosia
+Substance-induced disorder
+Substance intoxication
+Substance withdrawal
+Substance dependence
+Alcohol use disorder
+Alcoholic hallucinosis
+Alcohol withdrawal
+Cannabis use disorder
+Cannabis dependence
+Cannabis intoxication
+Cannabis withdrawal
+Cannabis-induced delirium
+Cannabis-induced psychosis
+Cannabis-induced mood disorder
+Cannabis-induced anxiety
+Episode of harmful use of synthetic cannabinoids
+Harmful pattern of use of synthetic cannabinoids
+Synthetic cannabinoid dependence
+Synthetic cannabinoid intoxication
+Synthetic cannabinoids withdrawal
+Synthetic cannabinoids induced delirium
+Synthetic cannabinoids induced psychotic disorder
+Synthetic cannabinoids induced mood disorder
+Synthetic cannabinoids induced anxiety
+Episode of harmful use of Opioids
+Harmful pattern of use of Opioids
+Opioid dependence
+Opioid intoxication
+Opioids withdrawal
+Opioids induced delirium
+Opioids induced psychotic disorder
+Opioids induced mood disorder
+Opioids induced anxiety
+Episode of harmful use of Sedative, hypnotic or anxiolytic
+Harmful pattern of use of Sedative, hypnotic or anxiolytic
+Sedative, hypnotic or anxiolytic dependence
+Sedative, hypnotic or anxiolytic intoxication
+Sedative, hypnotic or anxiolytic withdrawal
+Sedative, hypnotic or anxiolytic induced delirium
+Sedative, hypnotic or anxiolytic induced psychotic disorder
+Sedative, hypnotic or anxiolytic induced mood disorder
+Sedative, hypnotic or anxiolytic induced anxiety
+Amnestic disorder due to use of sedatives, hypnotics or anxiolytics
+Dementia due to use of sedatives, hypnotics or anxiolytics
+Episode of harmful use of Cocaine
+Harmful pattern of use of Cocaine
+Cocaine dependence
+Cocaine intoxication
+Cocaine withdrawal
+Cocaine induced delirium
+Cocaine induced psychotic disorder
+Cocaine induced mood disorder
+Cocaine induced anxiety
+Cocaine induced OCD
+Cocaine induced impulse control disorder
+Episode of harmful use of Amphetamines
+Harmful pattern of use of Amphetamines
+Amphetamines dependence
+Amphetamines intoxication
+Amphetamines withdrawal
+Amphetamines induced delirium
+Amphetamines induced psychotic disorder
+Amphetamines induced mood disorder
+Amphetamines induced anxiety
+Amphetamines induced OCD
+Amphetamines induced impulse control disorder
+Episode of harmful use of synthetic cathinone
+Harmful pattern of use of synthetic cathinone
+Synthetic cathinone dependence
+Synthetic cathinone intoxication
+Synthetic cathinone withdrawal
+Synthetic cathinone induced delirium
+Synthetic cathinone induced psychotic disorder
+Synthetic cathinone induced mood disorder
+Synthetic cathinone induced anxiety
+Synthetic cathinone induced OCD
+Synthetic cathinone induced impulse control disorder
+Episode of harmful use of caffeine
+Harmful pattern of use of caffeine
+Caffeine intoxication
+Caffeine withdrawal
+Caffeine induced anxiety disorder
+Caffeine-induced sleep disorder
+Episode of harmful use of hallucinogens
+Harmful pattern of use of hallucinogens
+Hallucinogens dependence
+Hallucinogen induced delirium
+Hallucinogens induced psychotic disorder
+Hallucinogens induced anxiety disorder
+Hallucinogens induced mood disorder
+Hallucinogen persisting perception disorder
+Episode of harmful use of nicotine
+Harmful pattern of use of nicotine
+nicotine intoxication
+nicotine withdrawal
+Nicotine dependence
+Episode of harmful use of volatile inhalants
+Harmful pattern of use of volatile inhalants
+Volatile inhalants withdrawal
+Volatile inhalants induced delirium
+Volatile inhalants induced psychotic disorder
+Volatile inhalants induced mood disorder
+Volatile inhalants induced anxiety
+Episode of harmful use of dissociative drugs including ketamine and phencyclidine [PCP]
+Harmful pattern of use of dissociative drugs including ketamine and phencyclidine [PCP]
+Dissociative drugs including ketamine and phencyclidine [PCP] dependence
+Dissociative drugs including ketamine and phencyclidine [PCP] intoxication
+Dissociative drugs including ketamine and phencyclidine [PCP] withdrawal
+Dissociative drugs including ketamine and phencyclidine [PCP] induced delirium
+Dissociative drugs including ketamine and phencyclidine [PCP] induced psychotic disorder
+Dissociative drugs including ketamine and phencyclidine [PCP] induced mood disorder
+Dissociative drugs including ketamine and phencyclidine [PCP] induced anxiety
+Addictive personality
+Gambling disorder
+Video game addiction
+Internet addiction disorder
+Sexual addiction
+Food addiction
+Exercise addiction
+Addiction to social media
+Pornography addiction
+Shopping addiction
+Voyeuristic disorder
+Exhibitionistic disorder
+Frotteuristic disorder
+Pedophilia
+Compulsive sexual behaviour disorder
+Erotic target location error
+Sexual masochism disorder
+Sexual sadism disorder
+Fetishistic disorder
+Transvestic disorder
+Other specified paraphilic disorder
+Hypochondriasis
+Cyberchondria
+Somatization disorder
+Conversion disorder
+Factitious disorder imposed on self
+Factitious disorder imposed on another
+Pain disorder
+Medically unexplained physical symptoms
+Delayed ejaculation
+Erectile dysfunction
+Anorgasmia
+Vaginismus
+Male hypoactive sexual desire disorder
+Female sexual arousal disorder
+Persistent genital arousal disorder
+Hypoactive sexual desire disorder
+Sexual arousal disorder
+Premature ejaculation
+Dyspareunia
+Sexual dysfunction
+Enuresis
+Nocturnal enuresis
+Encopresis
+Pica (disorder)
+Rumination syndrome
+Avoidant/restrictive food intake disorder
+Anorexia nervosa
+Binge eating disorder
+Bulimia nervosa
+Purging disorder
+Diabulimia
+Night eating syndrome
+Orthorexia nervosa
+Atypical anorexia nervosa
+Other specified feeding or eating disorder (OSFED)
+Intermittent explosive disorder
+Oppositional defiant disorder
+Conduct disorder
+Antisocial personality disorder
+Pyromania
+Kleptomania
+Mythomania
+Obsessive–compulsive disorder
+Body dysmorphic disorder
+Body integrity dysphoria
+Compulsive hoarding
+Trichotillomania
+Excoriation disorder
+Body-focused repetitive behavior disorder
+Olfactory reference syndrome
+Phantom limb syndrome
+Primarily obsessional obsessive-compulsive disorder
+Hoarding disorder
+Brief psychotic disorder
+Delusional disorder
+Delusional misidentification syndrome
+Paraphrenia
+Psychosis
+Schizophrenia
+Schizoaffective disorder
+Schizophreniform disorder
+Schizotypal personality disorder
+Shared delusional disorder
+Paranoid personality disorder
+Schizoid personality disorder
+Borderline personality disorder
+Histrionic personality disorder
+Narcissistic personality disorder
+Avoidant personality disorder
+Dependent personality disorder
+Obsessive–compulsive personality disorder
+Depressive personality disorder
+Passive–aggressive personality disorder
+Sadistic personality disorder
+Self-defeating personality disorder
+Gender dysphoria
+Catatonia
+Culture-bound syndrome
+Abulia
+Achromatopsia
+Acquired brain injury
+Agraphia
+Aicardi syndrome
+AIDS
+Akinetopsia
+Alexander Disease
+Alien hand syndrome
+Allan–Herndon–Dudley syndrome
+Alternating hemiplegia of childhood
+Alzheimer's disease
+Amaurosis fugax
+Amyotrophic lateral sclerosis
+Anencephaly
+Intracranial aneurysm
+Angelman syndrome
+Anosognosia
+Aphantasia
+Apraxia
+Arachnoiditis
+Arnold–Chiari malformation
+Asomatognosia
+Asperger syndrome
+Ataxia
+ATR-16 syndrome
+Attention deficit disorder without hyperactivity
+Back pain
+Behçet's disease
+Bell's palsy
+Bipolar disorder
+Blindsight
+Blindness
+Blurred vision
+Brain damage
+Brachial plexus injury
+Brain death
+Head injury
+Brain infarction
+Brain tumor
+Brody myopathy
+Canavan disease
+Capgras delusion
+Carpal tunnel syndrome
+Causalgia
+Central pain syndrome
+Central pontine myelinolysis
+Centronuclear myopathy
+Cephalic disorder
+Cerebral aneurysm
+Cerebral arteriosclerosis
+Cerebral atrophy
+CADASIL syndrome
+Cerebral dysgenesis–neuropathy–ichthyosis–keratoderma syndrome
+Cerebral gigantism
+Cerebral palsy
+Cerebral vasculitis
+Cerebrospinal fluid leak
+Cervical spinal stenosis
+Charcot–Marie–Tooth disease
+Chiari malformation
+Chorea
+Chronic fatigue syndrome
+Chronic inflammatory demyelinating polyneuropathy
+Charles bonnet syndrome
+Chronic pain
+Cluster headache
+Cockayne syndrome
+Coffin–Lowry syndrome
+Coma
+Complex regional pain syndrome
+Compression neuropathy
+Congenital distal spinal muscular atrophy
+Congenital facial diplegia
+Color blindness
+Cornelia de Lange syndrome
+Corticobasal degeneration
+Cotard delusion
+Cranial arteritis
+Craniosynostosis
+Creutzfeldt–Jakob disease
+Cumulative trauma disorders
+Cushing's syndrome
+Cyclic vomiting syndrome
+Cyclothymic disorder
+Cytomegalic inclusion body disease
+Cytomegalovirus
+Dandy–Walker syndrome
+Dawson disease
+De Morsier's syndrome
+Dejerine–Klumpke palsy
+Dejerine–Sottas disease
+Dermatillomania
+Dermatomyositis
+Diabetic neuropathy
+Disc herniation
+Diffuse myelinoclastic sclerosis
+Diplopia
+Disorders of consciousness
+Distal hereditary motor neuropathy type V
+Distal spinal muscular atrophy type 1
+Distal spinal muscular atrophy type 2
+Dizziness
+Dravet syndrome
+Duchenne muscular dystrophy
+Dysarthria
+Dysautonomia
+Dysphagia
+Dyskinesia
+Dystonia
+Empty sella syndrome
+Encephalitis
+Encephalocele
+Encephalopathy
+Encephalotrigeminal Angiomatosis
+Epilepsy
+Epilepsy-intellectual disability in females
+Erb's palsy
+Erythromelalgia
+Essential tremor
+Fabry's disease
+Fahr's syndrome
+Fainting
+Familial spastic paralysis
+Fetal alcohol syndrome
+Fever
+Fisher syndrome
+Fibromyalgia
+Foville's syndrome
+Fragile X syndrome
+Fragile X-associated tremor/ataxia syndrome
+Friedreich's ataxia
+Frontotemporal dementia
+Functional neurological symptom disorder
+Gaucher's disease
+Generalized epilepsy with febrile seizures plus
+Gerstmann's syndrome
+Giant cell arteritis
+Giant cell inclusion disease
+Globoid cell leukodystrophy
+Gray matter heterotopia
+Guillain–Barré syndrome
+Headache
+Hemicrania continua
+Hemifacial spasm
+Hemispatial neglect
+Hereditary motor neuropathies
+Hereditary spastic paraplegia
+Heredopathia atactica polyneuritiformis
+Herpes zoster
+Hirayama syndrome
+Hirschsprung's disease
+Holmes–Adie syndrome
+Holoprosencephaly
+HTLV-1 associated myelopathy
+Huntington's disease
+Hydrocephalia
+Hydranencephaly
+Hydrocephalus
+Hypercortisolism
+Hypoalgesia
+Hypoesthesia
+Hypoxia (medical)
+Inclusion body myositis
+Incontinentia pigmenti
+Infantile spasms
+Inflammatory myopathy
+Intracranial cyst
+Intracranial hypertension
+Isodicentric 15
+Joubert syndrome
+Karak syndrome
+Kearns–Sayre syndrome
+Kinsbourne syndrome
+Klippel Feil syndrome
+Krabbe disease
+Korsakoff Syndrome
+Kufor–Rakeb syndrome
+Spinal muscular atrophy
+Lafora disease
+Lambert–Eaton myasthenic syndrome
+Landau–Kleffner syndrome
+Wallenberg's syndrome
+Learning disability
+Leigh's disease
+Lennox–Gastaut syndrome
+Lesch–Nyhan syndrome
+Leukodystrophy
+Leukoencephalopathy with vanishing white matter
+Lewy body dementia
+Lissencephaly
+Locked-in syndrome
+Lumbar disc disease
+Lumbar hernia
+Lumbar spinal stenosis
+Lupus erythematosus
+Lyme disease
+Machado–Joseph disease
+Macrencephaly
+Macrocephalia
+Macropsia
+Mal de debarquement
+Megalencephalic leukoencephalopathy with subcortical cysts
+Megalencephaly
+Melkersson–Rosenthal syndrome
+Menieres disease
+Meningitis
+Menkes disease
+Metachromatic leukodystrophy
+Microcephaly
+Micropsia
+Migraine
+Mild brain injury
+Miller Fisher syndrome
+Mini-stroke
+Misophonia
+Mitochondrial myopathy
+Mobius syndrome
+Monomelic amyotrophy
+Morvan syndrome
+Motor skills disorder
+Moyamoya disease
+Mucopolysaccharidoses
+Multifocal motor neuropathy
+Multi-infarct dementia
+Multiple sclerosis
+Multiple system atrophy
+Muscular dystrophy
+Myalgic encephalomyelitis
+Myasthenia gravis
+Myoclonic Encephalopathy of infants
+Myoclonus
+Myopathy
+Myotonia congenita
+Neuralgia
+Neuro-Behçet's disease
+Neurofibromatosis
+Neuroleptic malignant syndrome
+Neuromyotonia
+Neuronal ceroid lipofuscinosis
+Neuronal migration disorders
+Neuropathy
+Neurosis
+Niemann–Pick disease
+Nonverbal learning disorder
+Occipital Neuralgia
+Occult spinal dysraphism sequence
+Ohtahara syndrome
+Olivopontocerebellar atrophy
+Opsoclonus myoclonus syndrome
+Optic neuritis
+Orthostatic hypotension
+O'Sullivan–McLeod syndrome
+Otosclerosis
+Overuse syndrome
+Palinopsia
+PANDAS
+Pantothenate kinase-associated neurodegeneration
+Paraplegia
+Paralysis
+Paramyotonia congenita
+Paresthesia
+Paresis
+Parkinson's disease
+Paraneoplastic disease
+Paroxysmal attacks
+Parry–Romberg syndrome
+Pelizaeus–Merzbacher disease
+Periodic paralyses
+Peripheral neuropathy
+Phantom limb
+Photic sneeze reflex
+Phytanic acid storage disease
+Pick's disease
+Pinched nerve
+Pituitary tumors
+Polyneuropathy
+Polymicrogyria
+Polio
+Polymyositis
+Porencephaly
+Postherpetic neuralgia
+Posttraumatic stress disorder
+Postural hypotension
+Postural orthostatic tachycardia syndrome
+Prader–Willi syndrome
+Primary lateral sclerosis
+Prion
+Progressive hemifacial atrophy
+Progressive multifocal leukoencephalopathy
+Progressive supranuclear palsy
+Prosopagnosia
+Pseudotumor cerebri
+Quadrantanopia
+Quadriplegia
+Rabies
+Radiculopathy
+Ramsay Hunt syndrome type I
+Ramsay Hunt syndrome type II
+Ramsay–Hunt syndrome
+Rasmussen encephalitis
+Reflex neurovascular dystrophy
+Refsum disease
+REM sleep behavior disorder
+Repetitive stress injury
+Retrovirus-associated myelopathy
+Rett syndrome
+Reye's syndrome
+Rhythmic movement disorder
+Romberg syndrome
+Savant syndrome
+Chorea (disease)
+Sandhoff disease
+Sanfilippo syndrome
+Schilder's disease (disambiguation)
+Schizencephaly
+Sclerosis (medicine)
+Seizures
+Septo-optic dysplasia
+Shaken baby syndrome
+Shy–Drager syndrome
+Sjögren's syndrome
+African trypanosomiasis
+Slurred speech
+Snatiation
+Sotos syndrome
+Spasticity
+Spina bifida
+Spinal and bulbar muscular atrophy
+Spinal cord injury
+Spinal cord
+Spinocerebellar ataxia
+Split-brain
+Stiff-person syndrome
+Stroke
+Sturge–Weber syndrome
+Subacute sclerosing panencephalitis
+Subcortical arteriosclerotic encephalopathy
+Superficial siderosis
+Sydenham's chorea
+Syncope (medicine)
+Synesthesia
+Syringomyelia
+Substance use disorder
+Traumatic encephalopathy
+Tardive dyskinesia
+Tarlov cyst
+Tarsal tunnel syndrome
+Tay–Sachs disease
+Temporal arteritis
+Temporal lobe epilepsy
+Tetanus
+Tethered spinal cord syndrome
+Thalamocortical dysrhythmia
+Thomsen disease
+Thoracic outlet syndrome
+Tic Douloureux
+Tinnitus
+Todd's paralysis
+Toxic encephalopathy
+Transient ischemic attack
+Bovine spongiform encephalopathy
+Transverse myelitis
+Tremor
+Trigeminal neuralgia
+Tropical spastic paraparesis
+Trypanosomiasis
+Tuberous sclerosis
+Unconsciousness
+Unverricht–Lundborg disease
+Vestibular schwannoma
+Vertigo
+Viliuisk encephalomyelitis
+Visual snow
+Von Hippel–Lindau disease
+Vulpian-Bernhardt Syndrome
+Wernicke encephalopathy
+Wernicke Korsakoff syndrome
+West syndrome
+Whiplash (medicine)
+Williams syndrome
+Wilson's disease
+Witzelsucht
+DFNY1
+Zellweger syndrome
