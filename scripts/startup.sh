@@ -19,6 +19,10 @@ docker run -p 8983:8983 --name $CONTAINER_NAME -v "$(pwd):/data" -d solr:9
 echo "Waiting for Solr to start..."
 sleep 4  # Adjust if Solr requires more time to start
 
+# Copy the synonyms file into the container
+echo "Copying synonyms file into Solr container..."
+docker cp solr/synonyms_disorders.txt $CONTAINER_NAME:/opt/solr/server/solr/configsets/_default/conf/
+
 # Create CORE1 and apply schema from the mapped file path
 docker exec -it $CONTAINER_NAME solr create_core -c $CORE1
 curl -X POST -H 'Content-type:application/json' \
