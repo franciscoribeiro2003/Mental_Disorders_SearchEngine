@@ -11,7 +11,7 @@
             {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
             {"class": "solr.LowerCaseFilterFactory"},
             {"class": "solr.PorterStemFilterFactory"},
-            {"class": "solr.SynonymGraphFilterFactory", "synonyms": "synonyms.txt", "ignoreCase": true, "expand": true}
+            {"class": "solr.SynonymGraphFilterFactory", "synonyms": "synonyms_disorders.txt", "ignoreCase": true, "expand": true}
           ]
         },
         "queryAnalyzer": {
@@ -22,7 +22,7 @@
             {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
             {"class": "solr.LowerCaseFilterFactory"},
             {"class": "solr.PorterStemFilterFactory"},
-            {"class": "solr.SynonymGraphFilterFactory", "synonyms": "synonyms.txt", "ignoreCase": true, "expand": true}
+            {"class": "solr.SynonymGraphFilterFactory", "synonyms": "synonyms_disorders.txt", "ignoreCase": true, "expand": true}
           ]
         }
       },
@@ -33,14 +33,16 @@
           "tokenizer": {"class": "solr.StandardTokenizerFactory"},
           "filters": [
             {"class": "solr.LowerCaseFilterFactory"},
-            {"class": "solr.PhoneticFilterFactory", "encoder": "DoubleMetaphone", "inject": "false"}
+            {"class": "solr.PhoneticFilterFactory", "encoder": "DoubleMetaphone", "inject": "false"},
+            {"class":"solr.EnglishMinimalStemFilterFactory"}
           ]
         },
         "queryAnalyzer": {
           "tokenizer": {"class": "solr.StandardTokenizerFactory"},
           "filters": [
             {"class": "solr.LowerCaseFilterFactory"},
-            {"class": "solr.PhoneticFilterFactory", "encoder": "DoubleMetaphone", "inject": "false"}
+            {"class": "solr.PhoneticFilterFactory", "encoder": "DoubleMetaphone", "inject": "false"},
+            {"class":"solr.EnglishMinimalStemFilterFactory"}
           ]
         }
       },

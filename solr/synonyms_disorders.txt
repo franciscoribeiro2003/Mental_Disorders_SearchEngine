@@ -1,0 +1,123 @@
+experience, feel, undergo, go_through, endure, confront, face, grapple_with, suffer, encounter
+perception, see, perceive, sense, notice, recognize, be_aware_of, detect, observe
+cognition, think, reason, analyze, process, contemplate, consider, understand, grasp, comprehend, reflect, ruminate, obsess
+awareness, conscious, mindful, aware, cognizant, attentive, present, alert, vigilant, observant
+disorientation, confusion, perplexity, bewilderment, haziness, fogginess, unclarity, distraction
+emotion, feeling, sentiment, mood, affect, vibe, energy, disposition, sensation, attitude
+mental_state, condition, state_of_mind, frame_of_mind, mindset, outlook, mood, psychological_state
+dissociation, detachment, separation, disconnection, alienation, estrangement, depersonalization
+
+happiness, joy, elation, contentment, satisfaction, pleasure, delight, bliss, euphoria
+sadness, sorrow, grief, despondency, melancholy, blues, depression, heartbreak, despair
+anxiety, worry, apprehension, unease, nervousness, stress, tension, dread, restlessness
+anger, rage, fury, irritation, annoyance, exasperation, wrath, resentment, frustration
+fear, terror, fright, panic, horror, dread, phobia, anxiety, alarm, trepidation
+excitement, thrill, anticipation, eagerness, exhilaration, enthusiasm, fervor, zeal
+calm, tranquility, peace, serenity, composure, relaxation, ease, quiet, stillness
+
+increase_in_symptoms, intensify, worsen, escalate, heighten, amplify, magnify, exacerbate, aggravate
+decrease_in_symptoms, lessen, reduce, alleviate, ease, diminish, weaken, mitigate, soothe
+onset, begin, start, appear, develop, emerge, initiate, arise, manifest, surface
+duration, persist, continue, endure, linger, prolong, stretch, sustain, last
+relapse, recur, return, reemerge, flare_up, fall_back, regress, backslide, reverse
+recovery, heal, improve, mend, bounce_back, stabilize, regain, recoup, recuperate
+
+identify, recognize, diagnose, determine, pinpoint, confirm, classify, assess, evaluate
+label, categorize, name, tag, brand, assign, classify, describe, refer_to
+distinguish, differentiate, discern, detect, separate, isolate, tell_apart, distinguish
+acknowledge, admit, accept, recognize, concede, own, identify, validate, affirm
+
+treatment, therapy, intervention, counseling, psychotherapy, remedy, care, rehabilitation, support
+medication, prescription, drug, antidepressant, antipsychotic, anxiolytic, sedative, stimulant, mood_stabilizer
+therapy_types, CBT, DBT, exposure_therapy, talk_therapy, group_therapy, behavioral_therapy, mindfulness, psychotherapy
+counsel, advise, guide, support, direct, coach, mentor, consult, encourage
+healing, recovery, recuperation, mending, restoration, regeneration, rejuvenation, renewal, rehabilitation
+self_care, self_compassion, self_help, self_management, personal_care, relaxation, stress_relief, resilience_building
+
+intensity, mild, moderate, severe, extreme, intense, overwhelming, unbearable, strong, acute, chronic
+frequency, rare, occasional, frequent, periodic, intermittent, constant, recurring, episodic, cyclic
+range, spectrum, continuum, scale, degree, level, gradient, variance, variation
+trigger, cause, provoke, incite, bring_about, prompt, set_off, elicit, stimulate, activate
+
+impact, affect, influence, shape, alter, change, modify, disrupt, interfere_with, impair
+daily_life, routine, functioning, activity, productivity, stability, balance, lifestyle, normalcy
+coping, manage, handle, endure, bear, tolerate, deal_with, navigate, adapt, adjust
+productivity, performance, efficiency, output, success, achievement, accomplishment, work_level
+impairment, disability, limitation, hindrance, obstruction, debilitation, incapacity, dysfunction
+
+support, aid, assistance, help, care, relief, backing, encouragement, guidance, reinforcement
+relationships, connection, bond, affiliation, association, link, partnership, rapport, interaction
+isolation, loneliness, seclusion, solitude, detachment, withdrawal, alienation, exclusion
+community, group, support_network, fellowship, society, team, circle, organization
+stigma, prejudice, discrimination, bias, misconception, judgment, labeling, shame, stereotype
+
+crisis, emergency, breakdown, critical_point, severe_episode, peak, intense_phase, emergency_situation
+severity, mild, moderate, severe, acute, critical, grave, serious, extreme, intense
+risk, hazard, danger, threat, exposure, susceptibility, vulnerability, jeopardy
+safety, protection, security, well-being, care, preservation, precaution, assurance
+
+child, kid, youngster, youth, minor, adolescent, teen, teenager, juvenile
+adult, grown-up, mature, middle-aged, senior, elderly, aged, pensioner, retiree
+infant, baby, newborn, toddler, preschooler, kindergartener, preteen, tween
+young_adult, millennial, generation_z, gen_z, gen_y, generation_y, twenty-something, thirty-something
+middle_aged, midlife, forties, fifties, sixties, mature_adult
+senior_citizen, elderly, retiree, pensioner, golden_ager, oldster, octogenarian, nonagenarian, centenarian
+
+pain, ache, discomfort, soreness, agony, distress, suffering, throbbing, twinge
+fatigue, tiredness, exhaustion, weariness, lethargy, drowsiness, burnout, weakness
+nausea, queasiness, sickness, vomiting, upset_stomach, dizziness, lightheadedness
+fever, high_temperature, chills, sweats, hyperthermia, pyrexia, elevated_temperature
+cough, hacking, wheezing, throat_clearing, barking, dry_cough, productive_cough
+headache, migraine, head_pain, throbbing_head, pounding_head, tension_headache, cluster_headache
+dizziness, vertigo, lightheadedness, unsteadiness, faintness, giddiness, disequilibrium
+rash, skin_irritation, hives, redness, itching, eczema, dermatitis, breakout
+swelling, inflammation, puffiness, bloating, edema, enlargement, distention
+shortness_of_breath, breathlessness, dyspnea, difficulty_breathing, labored_breathing, respiratory_distress
+
+happiness, joy, elation, contentment, satisfaction, pleasure, delight, bliss, euphoria
+sadness, sorrow, grief, despondency, melancholy, blues, depression, heartbreak, despair
+anxiety, worry, apprehension, unease, nervousness, stress, tension, dread, restlessness
+anger, rage, fury, irritation, annoyance, exasperation, wrath, resentment, frustration
+fear, terror, fright, panic, horror, dread, phobia, anxiety, alarm, trepidation
+excitement, thrill, anticipation, eagerness, exhilaration, enthusiasm, fervor, zeal
+calm, tranquility, peace, serenity, composure, relaxation, ease, quiet, stillness
+love, affection, fondness, adoration, devotion, infatuation, passion, attachment, care
+hate, loathing, detestation, aversion, hostility, animosity, enmity, resentment, antipathy
+surprise, astonishment, amazement, shock, wonder, awe, disbelief, bewilderment
+disgust, revulsion, repulsion, abhorrence, aversion, distaste, loathing, nausea
+
+depression, major_depressive_disorder, clinical_depression, unipolar_depression, dysthymia, persistent_depressive_disorder
+anxiety_disorder, generalized_anxiety_disorder, panic_disorder, social_anxiety_disorder, phobia, obsessive_compulsive_disorder, OCD, post_traumatic_stress_disorder, PTSD
+bipolar_disorder, manic_depression, bipolar_I, bipolar_II, cyclothymia, rapid_cycling
+schizophrenia, schizoaffective_disorder, paranoid_schizophrenia, catatonic_schizophrenia, disorganized_schizophrenia
+eating_disorder, anorexia_nervosa, bulimia_nervosa, binge_eating_disorder, EDNOS, orthorexia
+personality_disorder, borderline_personality_disorder, BPD, narcissistic_personality_disorder, NPD, antisocial_personality_disorder, ASPD, histrionic_personality_disorder, HPD
+attention_deficit_hyperactivity_disorder, ADHD, ADD, inattentive_type, hyperactive_type, combined_type
+autism_spectrum_disorder, ASD, autism, Asperger_syndrome, pervasive_developmental_disorder, PDD
+
+treatment, therapy, intervention, counseling, psychotherapy, remedy, care, rehabilitation, support
+medication, prescription, drug, antidepressant, antipsychotic, anxiolytic, sedative, stimulant, mood_stabilizer
+therapy_types, CBT, DBT, exposure_therapy, talk_therapy, group_therapy, behavioral_therapy, mindfulness, psychotherapy
+counsel, advise, guide, support, direct, coach, mentor, consult, encourage
+healing, recovery, recuperation, mending, restoration, regeneration, rejuvenation, renewal, rehabilitation
+self_care, self_compassion, self_help, self_management, personal_care, relaxation, stress_relief, resilience_building
+alternative_therapy, acupuncture, herbal_medicine, yoga, meditation, aromatherapy, chiropractic, naturopathy
+
+intensity, mild, moderate, severe, extreme, intense, overwhelming, unbearable, strong, acute, chronic
+frequency, rare, occasional, frequent, periodic, intermittent, constant, recurring, episodic, cyclic
+range, spectrum, continuum, scale, degree, level, gradient, variance, variation
+trigger, cause, provoke, incite, bring_about, prompt, set_off, elicit, stimulate, activate
+impact, affect, influence, shape, alter, change, modify, disrupt, interfere_with, impair
+daily_life, routine, functioning, activity, productivity, stability, balance, lifestyle, normalcy
+coping, manage, handle, endure, bear, tolerate, deal_with, navigate, adapt, adjust
+productivity, performance, efficiency, output, success, achievement, accomplishment, work_level
+impairment, disability, limitation, hindrance, obstruction, debilitation, incapacity, dysfunction
+support, aid, assistance, help, care, relief, backing, encouragement, guidance, reinforcement
+relationships, connection, bond, affiliation, association, link, partnership, rapport, interaction
+isolation, loneliness, seclusion, solitude, detachment, withdrawal, alienation, exclusion
+community, group, support_network, fellowship, society, team, circle, organization
+stigma, prejudice, discrimination, bias, misconception, judgment, labeling, shame, stereotype
+crisis, emergency, breakdown, critical_point, severe_episode, peak, intense_phase, emergency_situation
+severity, mild, moderate, severe, acute, critical, grave, serious, extreme, intense
+risk, hazard, danger, threat, exposure, susceptibility, vulnerability, jeopardy
+safety, protection, security, well-being, care, preservation, precaution, assurance
