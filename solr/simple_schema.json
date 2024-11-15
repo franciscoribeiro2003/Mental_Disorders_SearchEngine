@@ -1,0 +1,116 @@
+{
+  "add-field": [
+      {
+          "name": "name",
+          "type": "text_general",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "type",
+          "type": "string",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "link",
+          "type": "string",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "description",
+          "type": "text_general",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "content",
+          "type": "text_general",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "causes",
+          "type": "text_general",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "symptoms",
+          "type": "text_general",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "prevention",
+          "type": "text_general",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "epidemiology",
+          "type": "text_general",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "wikidata_id",
+          "type": "string",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "wikidata_url",
+          "type": "string",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "wikidata_url_json",
+          "type": "string",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "number_of_revisions",
+          "type": "pint",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "number_of_edits",
+          "type": "pint",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "page_views",
+          "type": "pint",
+          "stored": true,
+          "indexed": true,
+          "required": false
+      },
+      {
+          "name": "infobox",
+          "type": "text_general",
+          "stored": true,
+          "indexed": false,
+          "required": false
+      }
+  ]
+}

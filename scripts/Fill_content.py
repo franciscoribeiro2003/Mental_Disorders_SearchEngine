@@ -542,6 +542,24 @@ def clean_json_fields(input_filename, output_filename):
 
     print(f"Cleaned JSON file saved as: {output_filename}")
 
+##### Mode 8 #####
+def clean_infobox(input_filename, output_filename):
+    # Load the existing JSON data
+    with open(input_filename, 'r', encoding='utf-8') as f:
+        disorders_data = json.load(f)
+
+    # Loop over each disorder and clean the relevant fields
+    for disorder in disorders_data:
+        if "infobox" in disorder and isinstance(disorder["infobox"], dict):
+            infobox = disorder["infobox"]
+            for key, value in infobox.items():
+                infobox[key] = clean_text(value)
+
+    # Save the cleaned JSON data
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        json.dump(disorders_data, f, ensure_ascii=False, indent=4)
+
+    print(f"Cleaned JSON file saved as: {output_filename}")
 
 def main(mode, input_json_file, output_filename):
     if mode == 1:
@@ -558,6 +576,8 @@ def main(mode, input_json_file, output_filename):
         add_views_and_edits(input_json_file, output_filename)
     elif mode == 7:
         clean_json_fields(input_json_file, output_filename)
+    elif mode == 8:
+        clean_infobox(input_json_file, output_filename)
     else:
         print("Invalid mode selected. Use --help for more information.")
 
@@ -569,7 +589,8 @@ if __name__ == "__main__":
         4: "Edit the content, scrape again the wikipedia, but this time select only a part of content",
         5: "Add the infobox (Scrape from Wikipedia) as a new field containing the infobox data in JSON format.",
         6: "Add the wikipedia number of edits and page views over the last 30 days to the JSON",
-        7: "Remove redundant text from text fields, example [1], [2], [ 1 ], etc."
+        7: "Remove redundant text from text fields, example [1], [2], etc.",
+        8: "Clean parenthesis inside the components of the info box."
     }
 
     parser = argparse.ArgumentParser(
