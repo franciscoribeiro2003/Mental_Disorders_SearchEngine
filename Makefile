@@ -3,6 +3,7 @@ PYTHON=python
 SCRIPT=scripts/Fill_content.py
 INFO_SCRIPT=scripts/info.py
 SEARCH_SCRIPT=scripts/search.py
+QUERIES_SCRIPT=scripts/queries.py
 
 # Help command to display available options
 help:
@@ -21,8 +22,9 @@ help:
 	@echo "  - Info:"
 	@echo "     names			   - List of all available disorders names"
 	@echo "  - Solr server:"
-	@echo "     run_solr                   - Run Solr server"
-	@echo "     search_test <mode int>     - Test Solr search"
+	@echo "     run_solr                                    - Run Solr server"
+	@echo "     search_test <schema int>                    - Test Solr search"
+	@echo "     queries <schema int> <query settings int>   - Queries Solr search"
 	@echo  " Other"
 	@echo "     clean               - Remove specified input file"
 	@echo "     help                - Show this help"
@@ -100,8 +102,13 @@ clean_infobox:
 names:
 	$(PYTHON) $(INFO_SCRIPT) 1 $(file1)
 
+# Run Solr server
 run_solr:
 	./scripts/startup.sh
+
+# queries Solr search
+queries:
+	$(PYTHON) $(QUERIES_SCRIPT) $(file1) $(file2)
 
 # Test Solr search, choose mode 1 for a core with a less complex schema, and mode 2 for a core with a more complex schema
 search_test:

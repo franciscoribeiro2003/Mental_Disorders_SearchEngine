@@ -1,6 +1,5 @@
 import requests
 import argparse
-import json
 
 SOLR_URL = "http://localhost:8983/solr/disorders/select"
 SOLR_URL2 = "http://localhost:8983/solr/disorders02/select"
