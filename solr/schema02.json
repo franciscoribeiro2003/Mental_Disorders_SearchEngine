@@ -45,10 +45,6 @@
             {"class":"solr.EnglishMinimalStemFilterFactory"}
           ]
         }
-      },
-      {
-        "name": "date_field",
-        "class": "solr.DatePointField"
       }
     ],
     "add-field": [
@@ -68,7 +64,7 @@
         "name": "link",
         "type": "string",
         "stored": true,
-        "indexed": true
+        "indexed": false
       },
       {
         "name": "description",
@@ -113,29 +109,16 @@
         "indexed": true
       },
       {
-        "name": "risk_factors",
-        "type": "custom_text_general",
-        "stored": true,
-        "indexed": true
-      },
-      {
-        "name": "age_group",
-        "type": "string",
-        "stored": true,
-        "indexed": true,
-        "multiValued": true
-      },
-      {
         "name": "wikidata_id",
         "type": "string",
         "stored": true,
-        "indexed": true
+        "indexed": false
       },
       {
         "name": "wikidata_url",
         "type": "string",
         "stored": true,
-        "indexed": true
+        "indexed": false
       },
       {
         "name": "number_of_revisions",
@@ -153,7 +136,7 @@
         "name": "infobox",
         "type": "custom_text_general",
         "stored": true,
-        "indexed": false
+        "indexed": true
       }
     ]
   }
