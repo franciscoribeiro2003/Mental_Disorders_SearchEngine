@@ -4,6 +4,8 @@ SCRIPT=scripts/Fill_content.py
 INFO_SCRIPT=scripts/info.py
 SEARCH_SCRIPT=scripts/search.py
 QUERIES_SCRIPT=scripts/queries.py
+EVAL_SCRIPT=solr/evaluation.py
+
 
 # Help command to display available options
 help:
@@ -25,6 +27,7 @@ help:
 	@echo "     run_solr                                    - Run Solr server"
 	@echo "     search_test <schema int>                    - Test Solr search"
 	@echo "     queries <schema int> <query settings int>   - Queries Solr search"
+	@echo "     evaluation <milestone> <mode>   -evaluate queries ( mode: combined or seperate)"
 	@echo  " Other"
 	@echo "     clean               - Remove specified input file"
 	@echo "     help                - Show this help"
@@ -109,6 +112,10 @@ run_solr:
 # queries Solr search
 queries:
 	$(PYTHON) $(QUERIES_SCRIPT) $(file1) $(file2)
+
+#evaluation of queries
+evaluation:
+	$(PYTHON) $(EVAL_SCRIPT) $(file1) $(file2)
 
 # Test Solr search, choose mode 1 for a core with a less complex schema, and mode 2 for a core with a more complex schema
 search_test:
