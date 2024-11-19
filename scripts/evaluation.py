@@ -173,6 +173,7 @@ def main(milestone, mode):
         print("Milestone 3 implementation is not finished.")
         return
 
+
     stats = []
     results = {}
     for query in range(1, QUERIES + 1):
@@ -181,15 +182,15 @@ def main(milestone, mode):
             stats.append(output[0])
             results[schema, query] = output[1]
 
-        if mode == "separate":
+        if mode == 'separate':
             compute_rcs(results, query)
         elif mode == "combined":
             precision_recall_compare(results, query, SCHEMAS)
-        elif mode == "*":
+        elif mode == ".":
             compute_rcs(results, query)
             precision_recall_compare(results, query, SCHEMAS)
         else:
-            print("Invalid mode. Please provide 'separate', 'combined' or '*'.")
+            print("Invalid mode. Please provide 'separate', 'combined' or '.'.")
             return
 
     output = {
