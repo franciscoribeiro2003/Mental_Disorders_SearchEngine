@@ -4,10 +4,10 @@ import argparse
 
 queries = [
     "Cognitive speed",
-    "childhood trauma",
-    "CBT",
-    "Frequent on teenagers",
-    "caused by genetics inherited"
+    "Childhood trauma",
+    "Improvement with behavioral therapies",
+    "Frequent on childrens",
+    "Caused by genetics inherited"
 ]
 
 SOLR_URL = "http://localhost:8983/solr/disorders/select"
@@ -53,17 +53,17 @@ def search_solr(question, mode, setting, number):
 
         # Print the details of each document
 
-        for doc in data['response']['docs']:
-            print("\nDocument:")
-            for field, value in doc.items():
-                if field == 'name':
-                    print(f"  {field}: {value}")
-                if field == 'link':
-                    print(f"  {field}: {value}")
-                if field == 'debug':
-                    print(f"  {field}: {value}")
-            print("----------------------------------")
-        print("\n--- End of Results ---\n")
+        # for doc in data['response']['docs']:
+        #     print("\nDocument:")
+        #     for field, value in doc.items():
+        #         if field == 'name':
+        #             print(f"  {field}: {value}")
+        #         if field == 'link':
+        #             print(f"  {field}: {value}")
+        #         if field == 'debug':
+        #             print(f"  {field}: {value}")
+        #     print("----------------------------------")
+        # print("\n--- End of Results ---\n")
 
     except requests.exceptions.RequestException as e:
         print("An error occurred:", e)
