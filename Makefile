@@ -4,7 +4,7 @@ SCRIPT=scripts/Fill_content.py
 INFO_SCRIPT=scripts/info.py
 SEARCH_SCRIPT=scripts/search.py
 QUERIES_SCRIPT=scripts/queries.py
-EVAL_SCRIPT=solr/evaluation.py
+EVAL_SCRIPT=scripts/evaluation.py
 
 
 # Help command to display available options
@@ -27,7 +27,7 @@ help:
 	@echo "     run_solr                                    - Run Solr server"
 	@echo "     search_test <schema int>                    - Test Solr search"
 	@echo "     queries <schema int> <query settings int>   - Queries Solr search"
-	@echo "     evaluation <milestone> <mode>   -evaluate queries ( mode: combined or seperate)"
+	@echo "     evaluation <milestone> <mode>   -evaluate queries ( mode: combined, seperate or *)"
 	@echo  " Other"
 	@echo "     clean               - Remove specified input file"
 	@echo "     help                - Show this help"

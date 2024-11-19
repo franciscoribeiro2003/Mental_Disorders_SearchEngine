@@ -5,14 +5,14 @@ import sys
 
 LIMIT = 25
 PRECISION_AT = 25
-QUERIES = 2
-SCHEMAS = 5
+QUERIES = 5
+SCHEMAS = 2
 
 """
 read the evaluation file for @query in @schema
 """
 def getResults(query: int, schema: str) -> list:
-    path = f"./queries/schema_{schema}/q{query}/evaluation.json"
+    path = f"solr/queries/schema_{schema}/q{query}/evaluation.json"
     with open(path, 'r') as file:
         data = json.load(file)
         file.close()
@@ -115,7 +115,7 @@ def precision_recall(results: list, tuple, query: int) -> None:
     plt.ylabel('Precision')
     plt.title(f'Precision-Recall Curve Q{query} ({schema} schema)')
     plt.legend()
-    plt.savefig(f"./queries/schema_{tuple[0]}/q{tuple[1]}/PR_curve.png")
+    plt.savefig(f"solr/queries/schema_{tuple[0]}/q{tuple[1]}/PR_curve_s{tuple[0]}q{tuple[1]}.png")
     plt.close()
 
 def precision_recall_compare(results: dict, query: int, schemas: int) -> None:
@@ -140,7 +140,7 @@ def precision_recall_compare(results: dict, query: int, schemas: int) -> None:
     plt.ylabel('Precision')
     plt.title(f'Precision-Recall Curve Comparison Q{query}')
     plt.legend()
-    plt.savefig(f"./evaluation/combined_PR_curve_q{query}.png")
+    plt.savefig(f"solr/evaluation/combined_PR_curve_q{query}.png")
     plt.close()
 
 def compute_rcs(results: dict, query: int):
@@ -181,12 +181,16 @@ def main(milestone: int, mode: str):
             output = evaluate(query, str(schema))
             stats.append(output[0])
             results[schema, query] = output[1]
+
         if mode == "separate":
             compute_rcs(results, query)
         elif mode == "combined":
             precision_recall_compare(results, query, SCHEMAS)
+        elif mode == "*":
+            compute_rcs(results, query)
+            precision_recall_compare(results, query, SCHEMAS)
         else:
-            print("Invalid mode. Please provide 'separate' or 'combined'.")
+            print("Invalid mode. Please provide 'separate', 'combined' or '*'.")
             return
 
     output = {
@@ -197,12 +201,11 @@ def main(milestone: int, mode: str):
     print(json.dumps(output, indent=2))
 
 if __name__ == "__main__":
-    """
     if len(sys.argv) != 3:
         print("Usage: python evaluation.py <milestone> <mode>")
         sys.exit(1)
-    """
 
-    milestone = 2   #int(sys.argv[1])
-    mode = "combined"   #sys.argv[2]
+
+    milestone = int(sys.argv[1])
+    mode = sys.argv[2]
     main(milestone, mode)
