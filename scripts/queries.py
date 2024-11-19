@@ -4,9 +4,10 @@ import argparse
 
 queries = [
     "Cognitive speed",
-    "Triggered by childhood trauma",
+    "childhood trauma",
     "CBT",
     "Frequent on teenagers",
+    "caused by genetics inherited"
 ]
 
 SOLR_URL = "http://localhost:8983/solr/disorders/select"
@@ -16,7 +17,7 @@ settings_list = [
     {
         "defType": "edismax",
         "qf": "description^3 symptoms^2 causes^2 treatment^1.7 diagnosis^1.5 prevention^1.0 epidemiology^1.5 content^0.5",
-        "pf": "description symptoms", # Phrase boost for field relevance
+        "pf": "description^4 symptoms^2 causes^2" , # Phrase boost for field relevance
         "ps": 2, # Phrase slop allows slight separation in terms
         "ps2": 1, # Phrase slop for longer phrases
         "wt": "json", # JSON response format
