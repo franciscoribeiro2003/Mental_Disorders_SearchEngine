@@ -1,7 +1,6 @@
 import json
 import matplotlib.pyplot as plt
-from sklearn.metrics import PrecisionRecallDisplay
-import sys
+import argparse
 
 LIMIT = 25
 PRECISION_AT = 25
@@ -165,7 +164,7 @@ def evaluate(query: int, schema: str) -> list:
     return [stats, results]
 
 
-def main(milestone: int, mode: str):
+def main(milestone, mode):
     if milestone not in [2, 3]:
         print("Invalid milestone. Please provide 2 or 3.")
         return
@@ -201,11 +200,8 @@ def main(milestone: int, mode: str):
     print(json.dumps(output, indent=2))
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python evaluation.py <milestone> <mode>")
-        sys.exit(1)
-
-
-    milestone = int(sys.argv[1])
-    mode = sys.argv[2]
-    main(milestone, mode)
+    parser = argparse.ArgumentParser(description="Solr Evaluation")
+    parser.add_argument("milestone", type=int, help="Select the milestone to evaluate")
+    parser.add_argument("mode", type=str, help="Select the type of evaluation")
+    args = parser.parse_args()
+    main(args.milestone, args.mode)
