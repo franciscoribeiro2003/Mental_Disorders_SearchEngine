@@ -5,15 +5,8 @@ import sys
 
 LIMIT = 25
 PRECISION_AT = 25
-QUERIES = 5
-SCHEMAS = 2
-
-"""
-MODES = {
-    'm2': ['simple', 'boosted'],
-    'm3': ['boosted', 'stopwords', 'semantic', 'final']
-}
-"""
+QUERIES = 2
+SCHEMAS = 5
 
 """
 read the evaluation file for @query in @schema
@@ -53,20 +46,21 @@ def recall_values(results: list) -> float:
 
 
 # MAP
-def mean_average_precision(stats, tuple):
-    result = {mode: 0 for mode in tuple}
-    count = {mode: 0 for mode in tuple}
+def mean_average_precision(stats):
+
+    result = {schema: 0 for schema in range(1,SCHEMAS+1)}
+    count = {schema: 0 for schema in range(1,SCHEMAS+1)}
 
     for entry in stats:
-        mode = entry["mode"]
+        schema = entry["schema"]
         average_precision = entry["AvP"]
 
-        if mode in tuple:
-            result[mode] += average_precision
-            count[mode] += 1
 
-    for mode in tuple:
-        result[mode] /= count[mode] if count[mode] > 0 else 1
+        result[int(schema)] += average_precision
+        count[int(schema)] += 1
+
+    for schema in range(1, SCHEMAS+1):
+        result[schema] /= count[schema] if count[schema] > 0 else 1
 
     return result
 
@@ -197,7 +191,7 @@ def main(milestone: int, mode: str):
 
     output = {
         'Results per query and per mode': stats,
-        'Global MAP': mean_average_precision(stats, MODES[f'm{milestone}']),
+        'Global MAP': mean_average_precision(stats),
     }
 
     print(json.dumps(output, indent=2))
