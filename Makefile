@@ -27,7 +27,7 @@ help:
 	@echo "     run_solr                                    - Run Solr server"
 	@echo "     search_test <schema int>                    - Test Solr search"
 	@echo "     queries <schema int> <query settings int>   - Queries Solr search"
-	@echo "     evaluation <milestone> <mode>   -evaluate queries ( mode: combined, seperate or *)"
+	@echo "     evaluation <milestone int> <mode>   -evaluate queries ( mode: combined, seperate or *)"
 	@echo  " Other"
 	@echo "     clean               - Remove specified input file"
 	@echo "     help                - Show this help"
