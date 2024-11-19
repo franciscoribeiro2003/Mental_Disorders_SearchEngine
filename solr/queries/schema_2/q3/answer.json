@@ -1,13 +1,13 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 2,
+        "QTime": 3,
         "params": {
             "q": "CBT",
             "defType": "edismax",
             "ps": "2",
             "qf": "description^3 symptoms^2 causes^2 treatment^1.7 diagnosis^1.5 prevention^1.0 epidemiology^1.5 content^0.5",
-            "pf": "description symptoms",
+            "pf": "description^4 symptoms^2 causes^2",
             "fl": "name, link, description, symptoms, epidemiology",
             "rows": "25",
             "wt": "json",
