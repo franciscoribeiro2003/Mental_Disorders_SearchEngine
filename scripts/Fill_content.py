@@ -1,11 +1,12 @@
 import requests
 import json
 import time
-from bs4 import BeautifulSoup
 import argparse
 import sys
 import re
 
+from bs4 import BeautifulSoup
+from sentence_transformers import SentenceTransformer
 
 # Wikipedia base API URL
 WIKI_API_URL = "https://en.wikipedia.org/api/rest_v1/page/summary/"
@@ -15,6 +16,8 @@ WIKI_PAGE_URL = "https://en.wikipedia.org/wiki/"
 
 WIKI_DATA_BASE_URL = "https://www.wikidata.org/wiki/"
 WIKI_DATA_BASE_URL_JSON = "https://www.wikidata.org/wiki/Special:EntityData/"
+
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Function to get disorder description from Wikipedia's API
 def get_disorder_info(disorder_name):
@@ -561,6 +564,51 @@ def clean_infobox(input_filename, output_filename):
 
     print(f"Cleaned JSON file saved as: {output_filename}")
 
+
+##### Mode 9 #####
+def get_embedding(text):
+    # The model.encode() method already returns a list of floats
+    return model.encode(text, convert_to_tensor=False).tolist()
+
+def embed_content(input_filename, output_filename):
+    # Load the existing JSON data
+    with open(input_filename, 'r', encoding='utf-8') as f:
+        disorders_data = json.load(f)
+
+    i = 0
+    # Update each document in the JSON data
+    for disorder in disorders_data:
+        print(f" {(i/685) * 100}% - Embedding content for: {disorder['name']}")
+        # Extract fields if they exist, otherwise default to empty strings
+        title = disorder.get("name", "")
+        description = disorder.get("description", "")
+        content = disorder.get("content", "")
+        causes = disorder.get("causes", "")
+        symptoms = disorder.get("symptoms", "")
+        treatment = disorder.get("treatment", "")
+        diagnosis = disorder.get("diagnosis", "")
+        prevention = disorder.get("prevention", "")
+        epidemiology = disorder.get("epidemiology", "")
+        infobox = disorder.get("infobox", {})
+
+        # Combine all text fields into a single string
+        combined_text = title + " " + description + " " + content + " " + causes + " " + symptoms + " " + treatment + " " + diagnosis + " " + prevention + " " + epidemiology
+        if infobox:
+            for key, value in infobox.items():
+                combined_text += " " + key + " " + value
+
+        # Calculate the embedding for the combined text
+        disorder["vector"] = get_embedding(combined_text)
+        i=i+1
+
+    # Output updated JSON to STDOUT
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        json.dump(disorders_data, f, ensure_ascii=False, indent=4)
+
+    print(f"Updated JSON file saved as: {output_filename}")
+
+
+
 def main(mode, input_json_file, output_filename):
     if mode == 1:
         description_and_content(input_json_file, output_filename)
@@ -578,6 +626,8 @@ def main(mode, input_json_file, output_filename):
         clean_json_fields(input_json_file, output_filename)
     elif mode == 8:
         clean_infobox(input_json_file, output_filename)
+    elif mode == 9:
+        embed_content(input_json_file, output_filename)
     else:
         print("Invalid mode selected. Use --help for more information.")
 
@@ -590,7 +640,8 @@ if __name__ == "__main__":
         5: "Add the infobox (Scrape from Wikipedia) as a new field containing the infobox data in JSON format.",
         6: "Add the wikipedia number of edits and page views over the last 30 days to the JSON",
         7: "Remove redundant text from text fields, example [1], [2], etc.",
-        8: "Clean parenthesis inside the components of the info box."
+        8: "Clean parenthesis inside the components of the info box.",
+        9: "Embed the content of the disorders into a vector using Sentence Transformers"
     }
 
     parser = argparse.ArgumentParser(
