@@ -3,9 +3,12 @@
 # Define core names and schema paths inside the container
 CORE1="disorders"
 CORE2="disorders02"
+CORE3="disorders03"
 SCHEMA1="solr/simple_schema.json"
 SCHEMA2="solr/schema02.json"
+SCHEMA3="solr/schema03.json"
 DATA_FILE="/data/data/final.json"
+DATA_FILE2="/data/data/final_embedded.json"
 CONTAINER_NAME="meic_solr"
 
 # Stop and remove any existing Solr container with the specified name
@@ -35,11 +38,17 @@ curl -X POST -H 'Content-type:application/json' \
     --data-binary "@$SCHEMA2" \
     http://localhost:8983/solr/$CORE2/schema
 
+# Apply schema03 to CORE3
+docker exec -it $CONTAINER_NAME solr create_core -c $CORE3
+curl -X POST -H 'Content-type:application/json' \
+    --data-binary "@$SCHEMA3" \
+    http://localhost:8983/solr/$CORE3/schema
 
 # Populate both cores with data, if the data file exists
 if [ -f "$(pwd)/data/final.json" ]; then
     docker exec -it $CONTAINER_NAME solr post -c $CORE1 $DATA_FILE
     docker exec -it $CONTAINER_NAME solr post -c $CORE2 $DATA_FILE
+    docker exec -it $CONTAINER_NAME solr post -c $CORE3 $DATA_FILE2
 else
     echo "Data file 'final.json' not found in 'data' directory. Skipping data import."
 fi

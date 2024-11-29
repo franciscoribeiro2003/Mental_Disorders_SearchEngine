@@ -1,0 +1,155 @@
+{
+  "add-field-type": [
+    {
+      "name": "custom_text_general",
+      "class": "solr.TextField",
+      "indexAnalyzer": {
+        "tokenizer": {
+          "class": "solr.StandardTokenizerFactory"
+        },
+        "filters": [
+          {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
+          {"class": "solr.LowerCaseFilterFactory"},
+          {"class": "solr.PorterStemFilterFactory"},
+          {"class": "solr.SynonymGraphFilterFactory", "synonyms": "synonyms_disorders.txt", "ignoreCase": true, "expand": true}
+        ]
+      },
+      "queryAnalyzer": {
+        "tokenizer": {
+          "class": "solr.StandardTokenizerFactory"
+        },
+        "filters": [
+          {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
+          {"class": "solr.LowerCaseFilterFactory"},
+          {"class": "solr.PorterStemFilterFactory"},
+          {"class": "solr.SynonymGraphFilterFactory", "synonyms": "synonyms_disorders.txt", "ignoreCase": true, "expand": true}
+        ]
+      }
+    },
+    {
+      "name": "text_phonetic",
+      "class": "solr.TextField",
+      "indexAnalyzer": {
+        "tokenizer": {"class": "solr.StandardTokenizerFactory"},
+        "filters": [
+          {"class": "solr.LowerCaseFilterFactory"},
+          {"class": "solr.PhoneticFilterFactory", "encoder": "DoubleMetaphone", "inject": "false"},
+          {"class":"solr.EnglishMinimalStemFilterFactory"}
+        ]
+      },
+      "queryAnalyzer": {
+        "tokenizer": {"class": "solr.StandardTokenizerFactory"},
+        "filters": [
+          {"class": "solr.LowerCaseFilterFactory"},
+          {"class": "solr.PhoneticFilterFactory", "encoder": "DoubleMetaphone", "inject": "false"},
+          {"class":"solr.EnglishMinimalStemFilterFactory"}
+        ]
+      }
+    },
+    {
+      "name": "generalVector",
+      "class": "solr.DenseVectorField",
+      "vectorDimension": 384,
+      "similarityFunction": "cosine",
+      "knnAlgorithm": "hnsw"
+    }
+  ],
+  "add-field": [
+    {
+      "name": "name",
+      "type": "text_phonetic",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "link",
+      "type": "string",
+      "stored": true,
+      "indexed": false
+    },
+    {
+      "name": "description",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "content",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "causes",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "symptoms",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "treatment",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "diagnosis",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "epidemiology",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "wikidata_id",
+      "type": "string",
+      "stored": true,
+      "indexed": false
+    },
+    {
+      "name": "wikidata_url",
+      "type": "string",
+      "stored": true,
+      "indexed": false
+    },
+    {
+      "name": "number_of_revisions",
+      "type": "pint",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "page_views",
+      "type": "pint",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "infobox",
+      "type": "custom_text_general",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "vector",
+      "type": "generalVector",
+      "indexed": true,
+      "stored": true
+  }
+  ]
+}
