@@ -20,6 +20,7 @@ help:
 	@echo "     add_views_edits   <input_file> <output_file>        - Add Wikipedia views and edit count"
 	@echo "     clean_fields      <input_file> <output_file>        - Clean redundant text fields"
 	@echo "     clean_infobox     <input_file> <output_file>        - Clean infobox fields"
+	@echo "     embedd_data       <input_file> <output_file>        - Embed data"
 	@echo "     help_script                                         - Show help for the Python script"
 	@echo "  - Info:"
 	@echo "     names			   - List of all available disorders names"
@@ -100,6 +101,14 @@ clean_infobox:
 		exit 1; \
 	fi
 	$(PYTHON) $(SCRIPT) 8 $(file1) $(file2)
+
+# Mode 9: Embed data
+embedd_data:
+	@if [ -z "$(file1)" ] || [ -z "$(file2)" ]; then \
+		echo "Input and output files must be specified. Usage: make embedd_data <input_file> <output_file>"; \
+		exit 1; \
+	fi
+	$(PYTHON) $(SCRIPT) 9 $(file1) $(file2)
 
 # List of all available disorders names
 names:
