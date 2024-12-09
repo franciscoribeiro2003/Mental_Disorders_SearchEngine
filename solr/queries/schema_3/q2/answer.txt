@@ -1,0 +1,132 @@
+Enter your question: Childhood trauma
+
+Request URL: http://localhost:8983/solr/disorders03/select
+
+25 documents found.
+
+Document:
+  name: Post-traumatic stress disorder
+  link: https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder
+----------------------------------
+
+Document:
+  name: Posttraumatic stress disorder
+  link: https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder
+----------------------------------
+
+Document:
+  name: Shaken baby syndrome
+  link: https://en.wikipedia.org/wiki/Shaken_baby_syndrome
+----------------------------------
+
+Document:
+  name: Post-traumatic embitterment disorder
+  link: https://en.wikipedia.org/wiki/Post-traumatic_embitterment_disorder
+----------------------------------
+
+Document:
+  name: Head injury
+  link: https://en.wikipedia.org/wiki/Head_injury
+----------------------------------
+
+Document:
+  name: Alternating hemiplegia of childhood
+  link: https://en.wikipedia.org/wiki/Alternating_hemiplegia_of_childhood
+----------------------------------
+
+Document:
+  name: Complex post-traumatic stress disorder
+  link: https://en.wikipedia.org/wiki/Complex_post-traumatic_stress_disorder
+----------------------------------
+
+Document:
+  name: Reactive attachment disorder
+  link: https://en.wikipedia.org/wiki/Reactive_attachment_disorder
+----------------------------------
+
+Document:
+  name: Acquired brain injury
+  link: https://en.wikipedia.org/wiki/Acquired_brain_injury
+----------------------------------
+
+Document:
+  name: Prolonged grief disorder
+  link: https://en.wikipedia.org/wiki/Prolonged_grief_disorder
+----------------------------------
+
+Document:
+  name: Dissociative identity disorder
+  link: https://en.wikipedia.org/wiki/Dissociative_identity_disorder
+----------------------------------
+
+Document:
+  name: Separation anxiety disorder
+  link: https://en.wikipedia.org/wiki/Separation_anxiety_disorder
+----------------------------------
+
+Document:
+  name: Disinhibited social engagement disorder
+  link: https://en.wikipedia.org/wiki/Disinhibited_social_engagement_disorder
+----------------------------------
+
+Document:
+  name: Brain damage
+  link: https://en.wikipedia.org/wiki/Brain_damage
+----------------------------------
+
+Document:
+  name: Conduct disorder
+  link: https://en.wikipedia.org/wiki/Conduct_disorder
+----------------------------------
+
+Document:
+  name: Traumatic brain injury
+  link: https://en.wikipedia.org/wiki/Traumatic_brain_injury
+----------------------------------
+
+Document:
+  name: Dissociative amnesia
+  link: https://en.wikipedia.org/wiki/Dissociative_amnesia
+----------------------------------
+
+Document:
+  name: Intermittent explosive disorder
+  link: https://en.wikipedia.org/wiki/Intermittent_explosive_disorder
+----------------------------------
+
+Document:
+  name: Pervasive refusal syndrome
+  link: https://en.wikipedia.org/wiki/Pervasive_refusal_syndrome
+----------------------------------
+
+Document:
+  name: Disruptive mood dysregulation disorder
+  link: https://en.wikipedia.org/wiki/Disruptive_mood_dysregulation_disorder
+----------------------------------
+
+Document:
+  name: Sadistic personality disorder
+  link: https://en.wikipedia.org/wiki/Sadistic_personality_disorder
+----------------------------------
+
+Document:
+  name: Pedophilia
+  link: https://en.wikipedia.org/wiki/Pedophilia
+----------------------------------
+
+Document:
+  name: Factitious disorder imposed on another
+  link: https://en.wikipedia.org/wiki/Factitious_disorder_imposed_on_another
+----------------------------------
+
+Document:
+  name: Acute stress disorder
+  link: https://en.wikipedia.org/wiki/Acute_stress_disorder
+----------------------------------
+
+Document:
+  name: Mild brain injury
+  link: https://en.wikipedia.org/wiki/Mild_brain_injury
+----------------------------------
+
+--- End of Results ---

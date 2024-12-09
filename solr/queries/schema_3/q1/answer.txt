@@ -1,0 +1,126 @@
+25 documents found.
+
+Document:
+  name: Alzheimer's disease
+  link: https://en.wikipedia.org/wiki/Alzheimer%27s_disease
+----------------------------------
+
+Document:
+  name: Nonverbal learning Disorder
+  link: https://en.wikipedia.org/wiki/Nonverbal_learning_disorder
+----------------------------------
+
+Document:
+  name: Nonverbal learning disorder
+  link: https://en.wikipedia.org/wiki/Nonverbal_learning_disorder
+----------------------------------
+
+Document:
+  name: Intellectual disability
+  link: https://en.wikipedia.org/wiki/Intellectual_disability
+----------------------------------
+
+Document:
+  name: Communication disorder
+  link: https://en.wikipedia.org/wiki/Communication_disorder
+----------------------------------
+
+Document:
+  name: Aphasia 0
+  link: https://en.wikipedia.org/wiki/Aphasia
+----------------------------------
+
+Document:
+  name: Dementia 1
+  link: https://en.wikipedia.org/wiki/Dementia
+----------------------------------
+
+Document:
+  name: Subcortical arteriosclerotic encephalopathy 1
+  link: https://en.wikipedia.org/wiki/Subcortical_arteriosclerotic_encephalopathy
+----------------------------------
+
+Document:
+  name: Dyscalculia
+  link: https://en.wikipedia.org/wiki/Dyscalculia
+----------------------------------
+
+Document:
+  name: Prosopagnosia
+  link: https://en.wikipedia.org/wiki/Prosopagnosia
+----------------------------------
+
+Document:
+  name: Social communication disorder
+  link: https://en.wikipedia.org/wiki/Social_communication_disorder
+----------------------------------
+
+Document:
+  name: Savant syndrome
+  link: https://en.wikipedia.org/wiki/Savant_syndrome
+----------------------------------
+
+Document:
+  name: Learning disability
+  link: https://en.wikipedia.org/wiki/Learning_disability
+----------------------------------
+
+Document:
+  name: Mild brain injury
+  link: https://en.wikipedia.org/wiki/Mild_brain_injury
+----------------------------------
+
+Document:
+  name: Delayed ejaculation
+  link: https://en.wikipedia.org/wiki/Delayed_ejaculation
+----------------------------------
+
+Document:
+  name: Akinetopsia
+  link: https://en.wikipedia.org/wiki/Akinetopsia
+----------------------------------
+
+Document:
+  name: Corticobasal degeneration
+  link: https://en.wikipedia.org/wiki/Corticobasal_degeneration
+----------------------------------
+
+Document:
+  name: Attention deficit hyperactivity disorder
+  link: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+----------------------------------
+
+Document:
+  name: Transient ischemic attack
+  link: https://en.wikipedia.org/wiki/Transient_ischemic_attack
+----------------------------------
+
+Document:
+  name: Motor skills disorder
+  link: https://en.wikipedia.org/wiki/Motor_skills_disorder
+----------------------------------
+
+Document:
+  name: Dyslexia 1
+  link: https://en.wikipedia.org/wiki/Dyslexia
+----------------------------------
+
+Document:
+  name: Agnosia
+  link: https://en.wikipedia.org/wiki/Agnosia
+----------------------------------
+
+Document:
+  name: Synesthesia 1
+  link: https://en.wikipedia.org/wiki/Synesthesia
+----------------------------------
+
+Document:
+  name: Witzelsucht
+  link: https://en.wikipedia.org/wiki/Witzelsucht
+----------------------------------
+
+Document:
+  name: Gambling disorder
+  link: https://en.wikipedia.org/wiki/Gambling_disorder
+----------------------------------

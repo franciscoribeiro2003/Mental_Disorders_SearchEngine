@@ -165,19 +165,20 @@ def evaluate(query: int, schema: str) -> list:
 
 
 def main(milestone, mode):
+
+    schemas = [1,2]
     if milestone not in [2, 3]:
         print("Invalid milestone. Please provide 2 or 3.")
         return
 
     if milestone == 3:
-        print("Milestone 3 implementation is not finished.")
-        return
+        schemas = [2,3]
 
 
     stats = []
     results = {}
     for query in range(1, QUERIES + 1):
-        for schema in range(1, SCHEMAS + 1):
+        for schema in schemas:
             output = evaluate(query, str(schema))
             stats.append(output[0])
             results[schema, query] = output[1]
