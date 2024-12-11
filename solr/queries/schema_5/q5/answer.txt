@@ -1,0 +1,128 @@
+25 documents found.
+
+1. Document:
+  name: Niemann–Pick disease
+  link: https://en.wikipedia.org/wiki/Niemann%E2%80%93Pick_disease
+----------------------------------
+
+2. Document:
+  name: Joubert syndrome
+  link: https://en.wikipedia.org/wiki/Joubert_syndrome
+----------------------------------
+
+3. Document:
+  name: Fabry's disease
+  link: https://en.wikipedia.org/wiki/Fabry%27s_disease
+----------------------------------
+
+4. Document:
+  name: Gaucher's disease
+  link: https://en.wikipedia.org/wiki/Gaucher%27s_disease
+----------------------------------
+
+5. Document:
+  name: Sanfilippo syndrome
+  link: https://en.wikipedia.org/wiki/Sanfilippo_syndrome
+----------------------------------
+
+6. Document:
+  name: Leukodystrophy
+  link: https://en.wikipedia.org/wiki/Leukodystrophy
+----------------------------------
+
+7. Document:
+  name: Canavan disease
+  link: https://en.wikipedia.org/wiki/Canavan_disease
+----------------------------------
+
+8. Document:
+  name: Sandhoff disease
+  link: https://en.wikipedia.org/wiki/Sandhoff_disease
+----------------------------------
+
+9. Document:
+  name: Incontinentia pigmenti
+  link: https://en.wikipedia.org/wiki/Incontinentia_pigmenti
+----------------------------------
+
+10. Document:
+  name: Prader–Willi syndrome
+  link: https://en.wikipedia.org/wiki/Prader%E2%80%93Willi_syndrome
+----------------------------------
+
+11. Document:
+  name: Unverricht–Lundborg disease
+  link: https://en.wikipedia.org/wiki/Unverricht%E2%80%93Lundborg_disease
+----------------------------------
+
+12. Document:
+  name: Congenital distal spinal muscular atrophy
+  link: https://en.wikipedia.org/wiki/Congenital_distal_spinal_muscular_atrophy
+----------------------------------
+
+13. Document:
+  name: Hereditary motor neuropathies
+  link: https://en.wikipedia.org/wiki/Hereditary_motor_neuropathies
+----------------------------------
+
+14. Document:
+  name: Machado–Joseph disease
+  link: https://en.wikipedia.org/wiki/Machado%E2%80%93Joseph_disease
+----------------------------------
+
+15. Document:
+  name: Pelizaeus–Merzbacher disease
+  link: https://en.wikipedia.org/wiki/Pelizaeus%E2%80%93Merzbacher_disease
+----------------------------------
+
+16. Document:
+  name: Dravet syndrome
+  link: https://en.wikipedia.org/wiki/Dravet_syndrome
+----------------------------------
+
+17. Document:
+  name: Cephalic disorder
+  link: https://en.wikipedia.org/wiki/Cephalic_disorder
+----------------------------------
+
+18. Document:
+  name: Color blindness
+  link: https://en.wikipedia.org/wiki/Color_blindness
+----------------------------------
+
+19. Document:
+  name: Friedreich's ataxia
+  link: https://en.wikipedia.org/wiki/Friedreich%27s_ataxia
+----------------------------------
+
+20. Document:
+  name: Zellweger syndrome
+  link: https://en.wikipedia.org/wiki/Zellweger_syndrome
+----------------------------------
+
+21. Document:
+  name: Hereditary spastic paraplegia
+  link: https://en.wikipedia.org/wiki/Hereditary_spastic_paraplegia
+----------------------------------
+
+22. Document:
+  name: Familial spastic paralysis
+  link: https://en.wikipedia.org/wiki/Familial_spastic_paralysis
+----------------------------------
+
+23. Document:
+  name: Cerebral dysgenesis–neuropathy–ichthyosis–keratoderma syndrome
+  link: https://en.wikipedia.org/wiki/Cerebral_dysgenesis%E2%80%93neuropathy%E2%80%93ichthyosis%E2%80%93keratoderma_syndrome
+----------------------------------
+
+24. Document:
+  name: Metachromatic leukodystrophy
+  link: https://en.wikipedia.org/wiki/Metachromatic_leukodystrophy
+----------------------------------
+
+25. Document:
+  name: CADASIL syndrome
+  link: https://en.wikipedia.org/wiki/CADASIL_syndrome
+----------------------------------
+
+--- End of Results ---

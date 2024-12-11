@@ -1,0 +1,130 @@
+Request URL: http://localhost:8983/solr/disorders03/select
+
+25 documents found.
+
+1. Document:
+  name: Nonverbal learning Disorder
+  link: https://en.wikipedia.org/wiki/Nonverbal_learning_disorder
+----------------------------------
+
+2. Document:
+  name: Nonverbal learning disorder
+  link: https://en.wikipedia.org/wiki/Nonverbal_learning_disorder
+----------------------------------
+
+3. Document:
+  name: Communication disorder
+  link: https://en.wikipedia.org/wiki/Communication_disorder
+----------------------------------
+
+4. Document:
+  name: Intellectual disability
+  link: https://en.wikipedia.org/wiki/Intellectual_disability
+----------------------------------
+
+5. Document:
+  name: Alzheimer's disease
+  link: https://en.wikipedia.org/wiki/Alzheimer%27s_disease
+----------------------------------
+
+6. Document:
+  name: Social communication disorder
+  link: https://en.wikipedia.org/wiki/Social_communication_disorder
+----------------------------------
+
+7. Document:
+  name: Dementia
+  link: https://en.wikipedia.org/wiki/Dementia
+----------------------------------
+
+8. Document:
+  name: Learning disability
+  link: https://en.wikipedia.org/wiki/Learning_disability
+----------------------------------
+
+9. Document:
+  name: Dyslexia
+  link: https://en.wikipedia.org/wiki/Dyslexia
+----------------------------------
+
+10. Document:
+  name: Autism spectrum disorder
+  link: https://en.wikipedia.org/wiki/Autism_spectrum
+----------------------------------
+
+11. Document:
+  name: Dysgraphia
+  link: https://en.wikipedia.org/wiki/Dysgraphia
+----------------------------------
+
+12. Document:
+  name: Motor skills disorder
+  link: https://en.wikipedia.org/wiki/Motor_skills_disorder
+----------------------------------
+
+13. Document:
+  name: Developmental coordination disorder
+  link: https://en.wikipedia.org/wiki/Developmental_coordination_disorder
+----------------------------------
+
+14. Document:
+  name: Pervasive developmental disorder
+  link: https://en.wikipedia.org/wiki/Pervasive_developmental_disorder
+----------------------------------
+
+15. Document:
+  name: Attention deficit disorder without hyperactivity
+  link: https://en.wikipedia.org/wiki/Attention_deficit_disorder_without_hyperactivity
+----------------------------------
+
+16. Document:
+  name: Attention deficit hyperactivity disorder
+  link: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+----------------------------------
+
+17. Document:
+  name: Dyscalculia
+  link: https://en.wikipedia.org/wiki/Dyscalculia
+----------------------------------
+
+18. Document:
+  name: Stuttering
+  link: https://en.wikipedia.org/wiki/Stuttering
+----------------------------------
+
+19. Document:
+  name: Huntington's disease
+  link: https://en.wikipedia.org/wiki/Huntington%27s_disease
+----------------------------------
+
+20. Document:
+  name: Savant syndrome
+  link: https://en.wikipedia.org/wiki/Savant_syndrome
+----------------------------------
+
+21. Document:
+  name: Aphasia
+  link: https://en.wikipedia.org/wiki/Aphasia
+----------------------------------
+
+22. Document:
+  name: Auditory processing disorder
+  link: https://en.wikipedia.org/wiki/Auditory_processing_disorder
+----------------------------------
+
+23. Document:
+  name: Language disorder
+  link: https://en.wikipedia.org/wiki/Language_disorder
+----------------------------------
+
+24. Document:
+  name: Prosopagnosia
+  link: https://en.wikipedia.org/wiki/Prosopagnosia
+----------------------------------
+
+25. Document:
+  name: Subcortical arteriosclerotic encephalopathy
+  link: https://en.wikipedia.org/wiki/Subcortical_arteriosclerotic_encephalopathy
+----------------------------------
+
+--- End of Results ---

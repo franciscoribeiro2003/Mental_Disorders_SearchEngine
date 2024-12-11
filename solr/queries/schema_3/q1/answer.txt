@@ -1,126 +1,126 @@
 25 documents found.
 
-Document:
+1. Document:
   name: Alzheimer's disease
   link: https://en.wikipedia.org/wiki/Alzheimer%27s_disease
 ----------------------------------
 
-Document:
+2. Document:
   name: Nonverbal learning Disorder
   link: https://en.wikipedia.org/wiki/Nonverbal_learning_disorder
 ----------------------------------
 
-Document:
+3. Document:
   name: Nonverbal learning disorder
   link: https://en.wikipedia.org/wiki/Nonverbal_learning_disorder
 ----------------------------------
 
-Document:
+4.  Document:
   name: Intellectual disability
   link: https://en.wikipedia.org/wiki/Intellectual_disability
 ----------------------------------
 
-Document:
+5. Document:
   name: Communication disorder
   link: https://en.wikipedia.org/wiki/Communication_disorder
 ----------------------------------
 
-Document:
-  name: Aphasia 0
+6. Document:
+  name: Aphasia
   link: https://en.wikipedia.org/wiki/Aphasia
 ----------------------------------
 
-Document:
-  name: Dementia 1
+7. Document:
+  name: Dementia
   link: https://en.wikipedia.org/wiki/Dementia
 ----------------------------------
 
-Document:
-  name: Subcortical arteriosclerotic encephalopathy 1
+8. Document:
+  name: Subcortical arteriosclerotic encephalopathy
   link: https://en.wikipedia.org/wiki/Subcortical_arteriosclerotic_encephalopathy
 ----------------------------------
 
-Document:
+9. Document:
   name: Dyscalculia
   link: https://en.wikipedia.org/wiki/Dyscalculia
 ----------------------------------
 
-Document:
+10. Document:
   name: Prosopagnosia
   link: https://en.wikipedia.org/wiki/Prosopagnosia
 ----------------------------------
 
-Document:
+11. Document:
   name: Social communication disorder
   link: https://en.wikipedia.org/wiki/Social_communication_disorder
 ----------------------------------
 
-Document:
+12. Document:
   name: Savant syndrome
   link: https://en.wikipedia.org/wiki/Savant_syndrome
 ----------------------------------
 
-Document:
+13. Document:
   name: Learning disability
   link: https://en.wikipedia.org/wiki/Learning_disability
 ----------------------------------
 
-Document:
+14. Document:
   name: Mild brain injury
   link: https://en.wikipedia.org/wiki/Mild_brain_injury
 ----------------------------------
 
-Document:
+15. Document:
   name: Delayed ejaculation
   link: https://en.wikipedia.org/wiki/Delayed_ejaculation
 ----------------------------------
 
-Document:
+16. Document:
   name: Akinetopsia
   link: https://en.wikipedia.org/wiki/Akinetopsia
 ----------------------------------
 
-Document:
+17. Document:
   name: Corticobasal degeneration
   link: https://en.wikipedia.org/wiki/Corticobasal_degeneration
 ----------------------------------
 
-Document:
+18. Document:
   name: Attention deficit hyperactivity disorder
   link: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
 ----------------------------------
 
-Document:
+19. Document:
   name: Transient ischemic attack
   link: https://en.wikipedia.org/wiki/Transient_ischemic_attack
 ----------------------------------
 
-Document:
+20. Document:
   name: Motor skills disorder
   link: https://en.wikipedia.org/wiki/Motor_skills_disorder
 ----------------------------------
 
-Document:
-  name: Dyslexia 1
+21. Document:
+  name: Dyslexia
   link: https://en.wikipedia.org/wiki/Dyslexia
 ----------------------------------
 
-Document:
+22. Document:
   name: Agnosia
   link: https://en.wikipedia.org/wiki/Agnosia
 ----------------------------------
 
-Document:
+23. Document:
   name: Synesthesia 1
   link: https://en.wikipedia.org/wiki/Synesthesia
 ----------------------------------
 
-Document:
+24. Document:
   name: Witzelsucht
   link: https://en.wikipedia.org/wiki/Witzelsucht
 ----------------------------------
 
-Document:
+25. Document:
   name: Gambling disorder
   link: https://en.wikipedia.org/wiki/Gambling_disorder
 ----------------------------------

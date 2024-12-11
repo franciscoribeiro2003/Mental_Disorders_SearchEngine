@@ -1,0 +1,133 @@
+Enter your question: Childhood trauma
+using pseudo-Rocchio for query:'Childhood trauma'
+
+Request URL: http://localhost:8983/solr/disorders03/select
+
+25 documents found.
+
+1. Document:
+  name: Post-traumatic stress disorder
+  link: https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder
+----------------------------------
+
+2. Document:
+  name: Posttraumatic stress disorder
+  link: https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder
+----------------------------------
+
+3. Document:
+  name: Post-traumatic embitterment disorder
+  link: https://en.wikipedia.org/wiki/Post-traumatic_embitterment_disorder
+----------------------------------
+
+4. Document:
+  name: Shaken baby syndrome
+  link: https://en.wikipedia.org/wiki/Shaken_baby_syndrome
+----------------------------------
+
+5. Document:
+  name: Complex post-traumatic stress disorder
+  link: https://en.wikipedia.org/wiki/Complex_post-traumatic_stress_disorder
+----------------------------------
+
+6. Document:
+  name: Prolonged grief disorder
+  link: https://en.wikipedia.org/wiki/Prolonged_grief_disorder
+----------------------------------
+
+7. Document:
+  name: Dissociative identity disorder
+  link: https://en.wikipedia.org/wiki/Dissociative_identity_disorder
+----------------------------------
+
+8. Document:
+  name: Reactive attachment disorder
+  link: https://en.wikipedia.org/wiki/Reactive_attachment_disorder
+----------------------------------
+
+9. Document:
+  name: Intermittent explosive disorder
+  link: https://en.wikipedia.org/wiki/Intermittent_explosive_disorder
+----------------------------------
+
+10. Document:
+  name: Alternating hemiplegia of childhood
+  link: https://en.wikipedia.org/wiki/Alternating_hemiplegia_of_childhood
+----------------------------------
+
+11. Document:
+  name: Acute stress disorder
+  link: https://en.wikipedia.org/wiki/Acute_stress_disorder
+----------------------------------
+
+12. Document:
+  name: Disruptive mood dysregulation disorder
+  link: https://en.wikipedia.org/wiki/Disruptive_mood_dysregulation_disorder
+----------------------------------
+
+13. Document:
+  name: Head injury
+  link: https://en.wikipedia.org/wiki/Head_injury
+----------------------------------
+
+14. Document:
+  name: Disinhibited social engagement disorder
+  link: https://en.wikipedia.org/wiki/Disinhibited_social_engagement_disorder
+----------------------------------
+
+15. Document:
+  name: Sadistic personality disorder
+  link: https://en.wikipedia.org/wiki/Sadistic_personality_disorder
+----------------------------------
+
+16. Document:
+  name: Pervasive refusal syndrome
+  link: https://en.wikipedia.org/wiki/Pervasive_refusal_syndrome
+----------------------------------
+
+17. Document:
+  name: Dissociative amnesia
+  link: https://en.wikipedia.org/wiki/Dissociative_amnesia
+----------------------------------
+
+18. Document:
+  name: Conduct disorder
+  link: https://en.wikipedia.org/wiki/Conduct_disorder
+----------------------------------
+
+19. Document:
+  name: Mild brain injury
+  link: https://en.wikipedia.org/wiki/Mild_brain_injury
+----------------------------------
+
+20. Document:
+  name: Acquired brain injury
+  link: https://en.wikipedia.org/wiki/Acquired_brain_injury
+----------------------------------
+
+21. Document:
+  name: Chronic traumatic encephalopathy
+  link: https://en.wikipedia.org/wiki/Chronic_traumatic_encephalopathy
+----------------------------------
+
+22. Document:
+  name: Traumatic encephalopathy
+  link: https://en.wikipedia.org/wiki/Traumatic_encephalopathy
+----------------------------------
+
+23. Document:
+  name: Factitious disorder imposed on another
+  link: https://en.wikipedia.org/wiki/Factitious_disorder_imposed_on_another
+----------------------------------
+
+24. Document:
+  name: Separation anxiety disorder
+  link: https://en.wikipedia.org/wiki/Separation_anxiety_disorder
+----------------------------------
+
+25. Document:
+  name: Schizoid personality disorder
+  link: https://en.wikipedia.org/wiki/Schizoid_personality_disorder
+----------------------------------
+
+--- End of Results ---
