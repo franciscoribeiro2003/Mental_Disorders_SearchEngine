@@ -1,0 +1,99 @@
+1. Dementia
+https://en.wikipedia.org/wiki/Dementia
+Relevance Score: 6.2
+
+2. Alzheimer's disease
+https://en.wikipedia.org/wiki/Alzheimer%27s_disease
+Relevance Score: 6.18
+
+3. Synesthesia
+https://en.wikipedia.org/wiki/Synesthesia
+Relevance Score: 5.52
+
+4. HIV-associated neurocognitive disorder
+https://en.wikipedia.org/wiki/HIV-associated_neurocognitive_disorder
+Relevance Score: 5.44
+
+5. Ramsay Hunt syndrome type I
+https://en.wikipedia.org/wiki/Ramsay_Hunt_syndrome_type_I
+Relevance Score: 5.43
+
+6. Prosopagnosia
+https://en.wikipedia.org/wiki/Prosopagnosia
+Relevance Score: 5.14
+
+7. Traumatic brain injury
+https://en.wikipedia.org/wiki/Traumatic_brain_injury
+Relevance Score: 5.03
+
+8. Fibromyalgia
+https://en.wikipedia.org/wiki/Fibromyalgia
+Relevance Score: 5.03
+
+9. Infantile spasms
+https://en.wikipedia.org/wiki/Infantile_spasms
+Relevance Score: 4.76
+
+10. West syndrome
+https://en.wikipedia.org/wiki/West_syndrome
+Relevance Score: 4.76
+
+11. Migraine
+https://en.wikipedia.org/wiki/Migraine
+Relevance Score: 4.72
+
+12. Dysthymia
+https://en.wikipedia.org/wiki/Dysthymia
+Relevance Score: 4.68
+
+13. Rumination syndrome
+https://en.wikipedia.org/wiki/Rumination_syndrome
+Relevance Score: 4.54
+
+14. Cornelia de Lange syndrome
+https://en.wikipedia.org/wiki/Cornelia_de_Lange_syndrome
+Relevance Score: 4.33
+
+15. Acquired brain injury
+https://en.wikipedia.org/wiki/Acquired_brain_injury
+Relevance Score: 4.19
+
+16. Anosognosia
+https://en.wikipedia.org/wiki/Anosognosia
+Relevance Score: 4.19
+
+17. Epilepsy-intellectual disability in females
+https://en.wikipedia.org/wiki/Epilepsy-intellectual_disability_in_females
+Relevance Score: 4.19
+
+18. Delirium
+https://en.wikipedia.org/wiki/Delirium
+Relevance Score: 4.06
+
+19. Primarily obsessional obsessive-compulsive disorder
+https://en.wikipedia.org/wiki/Primarily_obsessional_obsessive_compulsive_disorder
+Relevance Score: 4.06
+
+20. Corticobasal degeneration
+https://en.wikipedia.org/wiki/Corticobasal_degeneration
+Relevance Score: 4.06
+
+21. Progressive supranuclear palsy
+https://en.wikipedia.org/wiki/Progressive_supranuclear_palsy
+Relevance Score: 4.06
+
+22. Separation anxiety disorder
+https://en.wikipedia.org/wiki/Separation_anxiety_disorder
+Relevance Score: 3.94
+
+23. Narcolepsy
+https://en.wikipedia.org/wiki/Narcolepsy
+Relevance Score: 3.88
+
+24. Locked-in syndrome
+https://en.wikipedia.org/wiki/Locked-in_syndrome
+Relevance Score: 3.83
+
+25. Kleine–Levin syndrome
+https://en.wikipedia.org/wiki/Kleine%E2%80%93Levin_syndrome
+Relevance Score: 3.72

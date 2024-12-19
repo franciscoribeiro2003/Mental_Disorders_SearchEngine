@@ -1,0 +1,99 @@
+1. Fabry's disease
+https://en.wikipedia.org/wiki/Fabry%27s_disease
+Relevance Score: 9.94
+
+2. Niemann–Pick disease
+https://en.wikipedia.org/wiki/Niemann%E2%80%93Pick_disease
+Relevance Score: 9.79
+
+3. Machado–Joseph disease
+https://en.wikipedia.org/wiki/Machado%E2%80%93Joseph_disease
+Relevance Score: 9.38
+
+4. Leukodystrophy
+https://en.wikipedia.org/wiki/Leukodystrophy
+Relevance Score: 8.97
+
+5. Pelizaeus–Merzbacher disease
+https://en.wikipedia.org/wiki/Pelizaeus%E2%80%93Merzbacher_disease
+Relevance Score: 8.95
+
+6. Sandhoff disease
+https://en.wikipedia.org/wiki/Sandhoff_disease
+Relevance Score: 8.94
+
+7. Coffin–Lowry syndrome
+https://en.wikipedia.org/wiki/Coffin%E2%80%93Lowry_syndrome
+Relevance Score: 8.49
+
+8. Color blindness
+https://en.wikipedia.org/wiki/Color_blindness
+Relevance Score: 8.46
+
+9. Spinocerebellar ataxia
+https://en.wikipedia.org/wiki/Spinocerebellar_ataxia
+Relevance Score: 8.42
+
+10. Down syndrome
+https://en.wikipedia.org/wiki/Down_syndrome
+Relevance Score: 8.15
+
+11. Gaucher's disease
+https://en.wikipedia.org/wiki/Gaucher%27s_disease
+Relevance Score: 8.06
+
+12. Sanfilippo syndrome
+https://en.wikipedia.org/wiki/Sanfilippo_syndrome
+Relevance Score: 7.97
+
+13. Dravet syndrome
+https://en.wikipedia.org/wiki/Dravet_syndrome
+Relevance Score: 7.84
+
+14. Obsessive–compulsive personality disorder
+https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_personality_disorder
+Relevance Score: 7.73
+
+15. Prader–Willi syndrome
+https://en.wikipedia.org/wiki/Prader%E2%80%93Willi_syndrome
+Relevance Score: 7.71
+
+16. Muscular dystrophy
+https://en.wikipedia.org/wiki/Muscular_dystrophy
+Relevance Score: 7.7
+
+17. Hereditary motor neuropathies
+https://en.wikipedia.org/wiki/Hereditary_motor_neuropathies
+Relevance Score: 7.57
+
+18. Distal hereditary motor neuropathy type V
+https://en.wikipedia.org/wiki/Distal_hereditary_motor_neuropathy_type_V
+Relevance Score: 7.56
+
+19. Canavan disease
+https://en.wikipedia.org/wiki/Canavan_disease
+Relevance Score: 7.54
+
+20. Multi-infarct dementia
+https://en.wikipedia.org/wiki/Multi-infarct_dementia
+Relevance Score: 7.38
+
+21. Fibromyalgia
+https://en.wikipedia.org/wiki/Fibromyalgia
+Relevance Score: 7.24
+
+22. Tuberous sclerosis
+https://en.wikipedia.org/wiki/Tuberous_sclerosis
+Relevance Score: 7.22
+
+23. Lesch–Nyhan syndrome
+https://en.wikipedia.org/wiki/Lesch%E2%80%93Nyhan_syndrome
+Relevance Score: 7.21
+
+24. Joubert syndrome
+https://en.wikipedia.org/wiki/Joubert_syndrome
+Relevance Score: 7.11
+
+25. Fahr's syndrome
+https://en.wikipedia.org/wiki/Fahr%27s_syndrome
+Relevance Score: 6.94

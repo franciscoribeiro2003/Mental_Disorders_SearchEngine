@@ -1,0 +1,99 @@
+1. Atypical depression
+https://en.wikipedia.org/wiki/Atypical_depression
+Relevance Score: 11.54
+
+2. Temporal lobe epilepsy
+https://en.wikipedia.org/wiki/Temporal_lobe_epilepsy
+Relevance Score: 10.52
+
+3. Restless legs syndrome
+https://en.wikipedia.org/wiki/Restless_legs_syndrome
+Relevance Score: 9.56
+
+4. Oppositional defiant disorder
+https://en.wikipedia.org/wiki/Oppositional_defiant_disorder
+Relevance Score: 8.82
+
+5. Antisocial personality disorder
+https://en.wikipedia.org/wiki/Antisocial_personality_disorder
+Relevance Score: 8.26
+
+6. Dysthymia
+https://en.wikipedia.org/wiki/Dysthymia
+Relevance Score: 8.13
+
+7. Conduct disorder
+https://en.wikipedia.org/wiki/Conduct_disorder
+Relevance Score: 8.1
+
+8. Premenstrual dysphoric disorder
+https://en.wikipedia.org/wiki/Premenstrual_dysphoric_disorder
+Relevance Score: 7.56
+
+9. Schizophrenia
+https://en.wikipedia.org/wiki/Schizophrenia
+Relevance Score: 7.49
+
+10. Hirayama syndrome
+https://en.wikipedia.org/wiki/Hirayama_syndrome
+Relevance Score: 7.41
+
+11. Monomelic amyotrophy
+https://en.wikipedia.org/wiki/Monomelic_amyotrophy
+Relevance Score: 7.41
+
+12. O'Sullivan–McLeod syndrome
+https://en.wikipedia.org/wiki/O%27Sullivan%E2%80%93McLeod_syndrome
+Relevance Score: 7.41
+
+13. Bell's palsy
+https://en.wikipedia.org/wiki/Bell%27s_palsy
+Relevance Score: 7.23
+
+14. Diabulimia
+https://en.wikipedia.org/wiki/Diabulimia
+Relevance Score: 6.94
+
+15. Panic disorder
+https://en.wikipedia.org/wiki/Panic_disorder
+Relevance Score: 6.87
+
+16. Narcissistic personality disorder
+https://en.wikipedia.org/wiki/Narcissistic_personality_disorder
+Relevance Score: 6.79
+
+17. Insufficient sleep syndrome
+https://en.wikipedia.org/wiki/Sleep_deprivation
+Relevance Score: 6.69
+
+18. Somatization disorder
+https://en.wikipedia.org/wiki/Somatization_disorder
+Relevance Score: 6.68
+
+19. Parkinson's disease
+https://en.wikipedia.org/wiki/Parkinson%27s_disease
+Relevance Score: 6.5
+
+20. Gambling disorder
+https://en.wikipedia.org/wiki/Gambling_disorder
+Relevance Score: 6.47
+
+21. Friedreich's ataxia
+https://en.wikipedia.org/wiki/Friedreich%27s_ataxia
+Relevance Score: 6.42
+
+22. Binge eating disorder
+https://en.wikipedia.org/wiki/Binge_eating_disorder
+Relevance Score: 6.38
+
+23. Post-traumatic stress disorder
+https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder
+Relevance Score: 6.35
+
+24. Posttraumatic stress disorder
+https://en.wikipedia.org/wiki/Posttraumatic_stress_disorder
+Relevance Score: 6.35
+
+25. Autism spectrum disorder
+https://en.wikipedia.org/wiki/Autism_spectrum
+Relevance Score: 6.31
