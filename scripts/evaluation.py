@@ -7,11 +7,18 @@ PRECISION_AT = 25
 QUERIES = 5
 SCHEMAS = 2
 
+schemas_dict = {
+    1 : "simple",
+    2 : "better lexical",
+    3 : "simple semantic",
+
+}
+
 """
 read the evaluation file for @query in @schema
 """
 def getResults(query: int, schema: str) -> list:
-    path = f"solr/queries/schema_{schema}/q{query}/evaluation.json"
+    path = f"../solr/queries/schema_{schema}/q{query}/evaluation.json"
     with open(path, 'r') as file:
         data = json.load(file)
         file.close()
@@ -45,10 +52,10 @@ def recall_values(results: list) -> float:
 
 
 # MAP
-def mean_average_precision(stats):
+def mean_average_precision(stats, schemas):
 
-    result = {schema: 0 for schema in range(1,SCHEMAS+1)}
-    count = {schema: 0 for schema in range(1,SCHEMAS+1)}
+    result = {schema: 0 for schema in schemas}
+    count = {schema: 0 for schema in schemas}
 
     for entry in stats:
         schema = entry["schema"]
@@ -58,7 +65,7 @@ def mean_average_precision(stats):
         result[int(schema)] += average_precision
         count[int(schema)] += 1
 
-    for schema in range(1, SCHEMAS+1):
+    for schema in schemas:
         result[schema] /= count[schema] if count[schema] > 0 else 1
 
     return result
@@ -114,22 +121,21 @@ def precision_recall(results: list, tuple, query: int) -> None:
     plt.ylabel('Precision')
     plt.title(f'Precision-Recall Curve Q{query} ({schema} schema)')
     plt.legend()
-    plt.savefig(f"solr/queries/schema_{tuple[0]}/q{tuple[1]}/PR_curve_s{tuple[0]}q{tuple[1]}.png")
+    plt.savefig(f"../solr/queries/schema_{tuple[0]}/q{tuple[1]}/PR_curve_s{tuple[0]}q{tuple[1]}.png")
     plt.close()
 
-def precision_recall_compare(results: dict, query: int, schemas: int) -> None:
+def precision_recall_compare(results: dict, query: int, schemas: list[int]) -> None:
     plt.figure()
-    for schema in range(1, schemas + 1):
+    for schema in schemas:
         precision_results = [round(v, 2) for v in precision_values(results[schema, query])]
         recall_results = [round(v, 2) for v in recall_values(results[schema, query])]
 
         x = [round(0.04 * x, 2) for x in range(1, 26)]
         y = acc_results(precision_results, recall_results)
 
-        if schema == 1:
-            schema_name = "simple"
-        else:
-            schema_name = "better"
+
+        schema_name = schemas_dict[schema]
+        allschemas = "".join(map(str, schemas))
 
         plt.plot(x, y, label=f'Precision-Recall Curve ({schema_name} schema)')
 
@@ -139,7 +145,7 @@ def precision_recall_compare(results: dict, query: int, schemas: int) -> None:
     plt.ylabel('Precision')
     plt.title(f'Precision-Recall Curve Comparison Q{query}')
     plt.legend()
-    plt.savefig(f"solr/evaluation/combined_PR_curve_q{query}.png")
+    plt.savefig(f"../solr/evaluation/combined_PR_curve_q{query}_s{allschemas}.png")
     plt.close()
 
 def compute_rcs(results: dict, query: int):
@@ -186,24 +192,28 @@ def main(milestone, mode):
         if mode == 'separate':
             compute_rcs(results, query)
         elif mode == "combined":
-            precision_recall_compare(results, query, SCHEMAS)
+            precision_recall_compare(results, query, schemas)
         elif mode == ".":
             compute_rcs(results, query)
-            precision_recall_compare(results, query, SCHEMAS)
+            precision_recall_compare(results, query, schemas)
         else:
             print("Invalid mode. Please provide 'separate', 'combined' or '.'.")
             return
 
     output = {
         'Results per query and per mode': stats,
-        'Global MAP': mean_average_precision(stats),
+        'Global MAP': mean_average_precision(stats, schemas),
     }
 
     print(json.dumps(output, indent=2))
 
 if __name__ == "__main__":
+
     parser = argparse.ArgumentParser(description="Solr Evaluation")
     parser.add_argument("milestone", type=int, help="Select the milestone to evaluate")
     parser.add_argument("mode", type=str, help="Select the type of evaluation")
     args = parser.parse_args()
+    
     main(args.milestone, args.mode)
+
+    #main(3,".")

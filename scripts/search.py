@@ -178,7 +178,7 @@ def main(mode):
 
 
 if __name__ == "__main__":
-    """
+
     modes = {
         1: "Core disorders 01.",
         2: "Core disorders 02.",
@@ -200,8 +200,8 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-    """
-    main(5)
+
+    main(3)
 
 
 
