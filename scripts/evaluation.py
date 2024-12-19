@@ -2,6 +2,8 @@ import json
 import matplotlib.pyplot as plt
 import argparse
 
+import pandas as pd
+
 LIMIT = 25
 PRECISION_AT = 25
 QUERIES = 5
@@ -215,6 +217,58 @@ def combine_all_queries_graph(results: dict, schemas: list[int]) -> None:
     plt.close()
 
 
+
+def get_table(stats, schemas):
+    # Initialize dictionaries to store P@25 and AvP values
+    p_at_25_values = {f"{schemas_dict[schema]} schema": [] for schema in schemas}
+    avp_values = {f"{schemas_dict[schema]} schema": [] for schema in schemas}
+
+    # Populate the dictionaries with values from stats
+    for entry in stats:
+        schema_name = f"{schemas_dict[int(entry['schema'])]} schema"
+        p_at_25_values[schema_name].append(entry[f'P@{PRECISION_AT}'])
+        avp_values[schema_name].append(entry['AvP'])
+
+    # Create DataFrames for P@25 and AvP values and transpose them
+    p_at_25_df = pd.DataFrame(p_at_25_values, index=[f'Q{q}' for q in range(1, QUERIES + 1)]).T
+    avp_df = pd.DataFrame(avp_values, index=[f'Q{q}' for q in range(1, QUERIES + 1)]).T
+
+    # Save the tables as HTML files with centered numbers
+    for df, filename in [(p_at_25_df, 'p_at_25_table.html'), (avp_df, 'avp_table.html')]:
+        with open(f'../solr/evaluation/{filename}', 'w') as file:
+            file.write(df.to_html(index=True, header=True, classes='centered'))
+
+        # Add CSS to center the numbers
+        with open(f'../solr/evaluation/{filename}', 'a') as file:
+            file.write('''
+            <style>
+            .centered th, .centered td {
+                text-align: center;
+            }
+            </style>
+            ''')
+
+def get_map_table(map_values):
+    # Replace schema numbers with schema names and append "schema"
+    map_values_named = {f"{schemas_dict[schema]} schema": value for schema, value in map_values.items()}
+
+    # Create DataFrame for MAP values
+    map_df = pd.DataFrame(map_values_named, index=['Mean Average Precision (MAP)']).T
+
+    # Save the table as an HTML file with centered numbers
+    with open('../solr/evaluation/map_table.html', 'w') as file:
+        file.write('<h1>MAP Table</h1>')
+        file.write(map_df.to_html(index=True, header=True, classes='centered'))
+
+    # Add CSS to center the numbers
+    with open('../solr/evaluation/map_table.html', 'a') as file:
+        file.write('''
+        <style>
+        .centered th, .centered td {
+            text-align: center;
+        }
+        </style>
+        ''')
 def main(milestone, mode):
     schemas = [1, 2]
     if milestone not in [2, 3]:
@@ -222,7 +276,7 @@ def main(milestone, mode):
         return
 
     if milestone == 3:
-        schemas = [2, 3, 4, 5,6]
+        schemas = [2, 3, 4, 5,6 ]
 
     stats = []
     results = {}
@@ -249,6 +303,8 @@ def main(milestone, mode):
         'Results per query and per mode': stats,
         'Global MAP': mean_average_precision(stats, schemas),
     }
+    get_table(stats, schemas)
+    get_map_table(mean_average_precision(stats, schemas))
 
     print(json.dumps(output, indent=2))
 
