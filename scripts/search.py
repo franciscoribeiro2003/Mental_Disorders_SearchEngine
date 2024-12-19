@@ -113,7 +113,7 @@ def search_solr(question, mode, embedding=None):
             }
             response = requests.post(SOLR_URL3, data=params_embbed, headers=headers)
 
-        if mode > 3:
+        if 6 > mode > 3:
             updated_query_vector = None
             query_vector = embedding
             data = response.json()
@@ -136,7 +136,13 @@ def search_solr(question, mode, embedding=None):
                 updated_query_vector = rocchio_algorithm(query_vector, relevant_docs, non_relevant_docs)
 
             if mode == 6:
-                params_embbed["bq"] = f"{{!knn f=vector}}{updated_query_vector}"
+                # params_embbed["bq"] = f"{{!knn f=vector}}{updated_query_vector}"
+                params_embbed = {
+                    "q": f"{{!knn f=vector topK=25}}{embedding}",
+                    "fl": "name,link",
+                    "rows": 25,
+                    "wt": "json"
+                }
             else:
                 params_embbed["q"] = f"{{!knn f=vector topK=25}}{updated_query_vector}"
             headers = {
@@ -220,6 +226,3 @@ if __name__ == "__main__":
     main(args)
     """
     main(6)
-
-
-

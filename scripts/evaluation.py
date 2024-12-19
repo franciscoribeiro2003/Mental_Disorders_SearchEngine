@@ -8,17 +8,33 @@ QUERIES = 5
 SCHEMAS = 2
 
 schemas_dict = {
-    1 : "simple",
-    2 : "better lexical",
-    3 : "simple semantic",
+    1: "simple",
+    2: "better lexical",
+    3: "semantic",
+    4: "semantic (with pseudo-rocchio)",
+    5: "semantic (with rocchio)",
+    6: "hybrid (with pseudo-rocchio)",
+
+}
+
+schema_dir = {
+    "1": "schema_1",
+    "2": "schema_2",
+    "3": "schema_3-mode_3",
+    "4": "schema_3-mode_4",
+    "5": "schema_3-mode_5",
+    "6": "schema_3-mode_6",
 
 }
 
 """
 read the evaluation file for @query in @schema
 """
+
+
 def getResults(query: int, schema: str) -> list:
-    path = f"../solr/queries/schema_{schema}/q{query}/evaluation.json"
+    schema_dir_name = schema_dir[schema]
+    path = f"../solr/queries/{schema_dir_name}/q{query}/evaluation.json"
     with open(path, 'r') as file:
         data = json.load(file)
         file.close()
@@ -53,14 +69,12 @@ def recall_values(results: list) -> float:
 
 # MAP
 def mean_average_precision(stats, schemas):
-
     result = {schema: 0 for schema in schemas}
     count = {schema: 0 for schema in schemas}
 
     for entry in stats:
         schema = entry["schema"]
         average_precision = entry["AvP"]
-
 
         result[int(schema)] += average_precision
         count[int(schema)] += 1
@@ -111,18 +125,16 @@ def precision_recall(results: list, tuple, query: int) -> None:
     plt.xlim(0, 1.1)
     plt.ylim(0, 1.1)
 
-    if tuple[0] == 1:
-        schema = "simple"
-    else:
-        schema = "better"
 
+    schema_dir_name = schema_dir[str(tuple[0])]
     plt.plot(x, y, label='Precision-Recall Curve')
     plt.xlabel('Recall')
     plt.ylabel('Precision')
-    plt.title(f'Precision-Recall Curve Q{query} ({schema} schema)')
+    plt.title(f'Precision-Recall Curve Q{query} ({schemas_dict[tuple[0]]} schema)')
     plt.legend()
-    plt.savefig(f"../solr/queries/schema_{tuple[0]}/q{tuple[1]}/PR_curve_s{tuple[0]}q{tuple[1]}.png")
+    plt.savefig(f"../solr/queries/{schema_dir_name}/q{tuple[1]}/PR_curve_s{tuple[0]}q{tuple[1]}.png")
     plt.close()
+
 
 def precision_recall_compare(results: dict, query: int, schemas: list[int]) -> None:
     plt.figure()
@@ -132,7 +144,6 @@ def precision_recall_compare(results: dict, query: int, schemas: list[int]) -> N
 
         x = [round(0.04 * x, 2) for x in range(1, 26)]
         y = acc_results(precision_results, recall_results)
-
 
         schema_name = schemas_dict[schema]
         allschemas = "".join(map(str, schemas))
@@ -147,6 +158,7 @@ def precision_recall_compare(results: dict, query: int, schemas: list[int]) -> N
     plt.legend()
     plt.savefig(f"../solr/evaluation/combined_PR_curve_q{query}_s{allschemas}.png")
     plt.close()
+
 
 def compute_rcs(results: dict, query: int):
     for k, v in results.items():
@@ -168,8 +180,6 @@ def evaluate(query: int, schema: str) -> list:
     }
 
     return [stats, results]
-
-
 
 
 def combine_all_queries_graph(results: dict, schemas: list[int]) -> None:
@@ -204,16 +214,15 @@ def combine_all_queries_graph(results: dict, schemas: list[int]) -> None:
     plt.savefig(f"../solr/evaluation/combined_PR_curve_all_queries.png")
     plt.close()
 
-def main(milestone, mode):
 
-    schemas = [1,2]
+def main(milestone, mode):
+    schemas = [1, 2]
     if milestone not in [2, 3]:
         print("Invalid milestone. Please provide 2 or 3.")
         return
 
     if milestone == 3:
-        schemas = [2,3]
-
+        schemas = [2, 3, 4, 5,6]
 
     stats = []
     results = {}
@@ -243,13 +252,14 @@ def main(milestone, mode):
 
     print(json.dumps(output, indent=2))
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
+    """
     parser = argparse.ArgumentParser(description="Solr Evaluation")
     parser.add_argument("milestone", type=int, help="Select the milestone to evaluate")
     parser.add_argument("mode", type=str, help="Select the type of evaluation")
     args = parser.parse_args()
     
     main(args.milestone, args.mode)
-
-    #main(3,".")
+    """
+    main(3, ".")
