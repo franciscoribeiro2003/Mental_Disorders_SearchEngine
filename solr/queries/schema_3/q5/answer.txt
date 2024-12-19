@@ -1,126 +1,126 @@
 25 documents found.
 
-Document:
+1 Document:
   name: Joubert syndrome
   link: https://en.wikipedia.org/wiki/Joubert_syndrome
 ----------------------------------
 
-Document:
+2 Document:
   name: Niemann–Pick disease
   link: https://en.wikipedia.org/wiki/Niemann%E2%80%93Pick_disease
 ----------------------------------
 
-Document:
+3 Document:
   name: Fabry's disease
   link: https://en.wikipedia.org/wiki/Fabry%27s_disease
 ----------------------------------
 
-Document:
+4 Document:
   name: Prader–Willi syndrome
   link: https://en.wikipedia.org/wiki/Prader%E2%80%93Willi_syndrome
 ----------------------------------
 
-Document:
+5 Document:
   name: Sanfilippo syndrome
   link: https://en.wikipedia.org/wiki/Sanfilippo_syndrome
 ----------------------------------
 
-Document:
+6 Document:
   name: Gaucher's disease
   link: https://en.wikipedia.org/wiki/Gaucher%27s_disease
 ----------------------------------
 
-Document:
+7 Document:
   name: Hereditary motor neuropathies
   link: https://en.wikipedia.org/wiki/Hereditary_motor_neuropathies
 ----------------------------------
 
-Document:
+8 Document:
   name: Congenital distal spinal muscular atrophy
   link: https://en.wikipedia.org/wiki/Congenital_distal_spinal_muscular_atrophy
 ----------------------------------
 
-Document:
+9 Document:
   name: Machado–Joseph disease
   link: https://en.wikipedia.org/wiki/Machado%E2%80%93Joseph_disease
 ----------------------------------
 
-Document:
+10.Document:
   name: Leukodystrophy
   link: https://en.wikipedia.org/wiki/Leukodystrophy
 ----------------------------------
 
-Document:
+11 Document:
   name: Progressive hemifacial atrophy
   link: https://en.wikipedia.org/wiki/Progressive_hemifacial_atrophy
 ----------------------------------
 
-Document:
+12 Document:
   name: CADASIL syndrome
   link: https://en.wikipedia.org/wiki/CADASIL_syndrome
 ----------------------------------
 
-Document:
+13 Document:
   name: Distal spinal muscular atrophy type 2
   link: https://en.wikipedia.org/wiki/Distal_spinal_muscular_atrophy_type_2
 ----------------------------------
 
-Document:
+14 Document:
   name: Zellweger syndrome
   link: https://en.wikipedia.org/wiki/Zellweger_syndrome
 ----------------------------------
 
-Document:
+15 Document:
   name: Cerebral gigantism
   link: https://en.wikipedia.org/wiki/Cerebral_gigantism
 ----------------------------------
 
-Document:
+16 Document:
   name: Sotos syndrome
   link: https://en.wikipedia.org/wiki/Sotos_syndrome
 ----------------------------------
 
-Document:
+17 Document:
   name: Friedreich's ataxia
   link: https://en.wikipedia.org/wiki/Friedreich%27s_ataxia
 ----------------------------------
 
-Document:
+18 Document:
   name: Canavan disease
   link: https://en.wikipedia.org/wiki/Canavan_disease
 ----------------------------------
 
-Document:
+19 Document:
   name: Williams syndrome
   link: https://en.wikipedia.org/wiki/Williams_syndrome
 ----------------------------------
 
-Document:
+20 Document:
   name: Unverricht–Lundborg disease
   link: https://en.wikipedia.org/wiki/Unverricht%E2%80%93Lundborg_disease
 ----------------------------------
 
-Document:
+21 Document:
   name: Cephalic disorder
   link: https://en.wikipedia.org/wiki/Cephalic_disorder
 ----------------------------------
 
-Document:
+22 Document:
   name: Incontinentia pigmenti
   link: https://en.wikipedia.org/wiki/Incontinentia_pigmenti
 ----------------------------------
 
-Document:
+23 Document:
   name: Lesch–Nyhan syndrome
   link: https://en.wikipedia.org/wiki/Lesch%E2%80%93Nyhan_syndrome
 ----------------------------------
 
-Document:
+24 Document:
   name: Wilson's disease
   link: https://en.wikipedia.org/wiki/Wilson%27s_disease
 ----------------------------------
 
-Document:
+25 Document:
   name: Parry–Romberg syndrome
   link: https://en.wikipedia.org/wiki/Parry%E2%80%93Romberg_syndrome
 ----------------------------------

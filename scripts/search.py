@@ -53,7 +53,6 @@ def get_relevant_non_relevant_vectors(n, data_resonse=None):
 
     else:
         print("todo")
-        # todo implement a way user returns relevant and non relevant documents
 
 
 def text_to_embedding(text):
@@ -87,6 +86,20 @@ def search_solr(question, mode, embedding=None):
 
     if mode > 3:
         params_embbed["fl"] = "name,link,vector"
+    if mode == 6:
+        params_embbed = {
+            "defType": "edismax",
+            "q": f"{question}^0.3",
+            "bq": f"{{!knn f=vector}}{embedding}",
+            "qf": "description^3 symptoms^2 causes^2 treatment^1.7 diagnosis^1.5 prevention^1.0 epidemiology^1.5 "
+                  "content^0.5",
+            "pf": "description^4 symptoms^2 causes^2",
+            "fl": "name,link,score,vector",
+            "rows": "25",
+            "wt": "json",
+            "ps": "2",
+            "ps2": "1"
+        }
 
     try:
         # Send the request to Solr
@@ -104,7 +117,7 @@ def search_solr(question, mode, embedding=None):
             updated_query_vector = None
             query_vector = embedding
             data = response.json()
-            if mode == 4:
+            if mode == 4 or mode == 6:
                 # Pseudo Rocchio
                 print(f"using pseudo-Rocchio for query:'{question}'")
                 retrieved_docs_vectors = [doc['vector'] for doc in data['response']['docs']]
@@ -122,7 +135,10 @@ def search_solr(question, mode, embedding=None):
                 relevant_docs, non_relevant_docs = get_relevant_non_relevant_vectors(n, data)
                 updated_query_vector = rocchio_algorithm(query_vector, relevant_docs, non_relevant_docs)
 
-            params_embbed["q"] = f"{{!knn f=vector topK=25}}{updated_query_vector}"
+            if mode == 6:
+                params_embbed["bq"] = f"{{!knn f=vector}}{updated_query_vector}"
+            else:
+                params_embbed["q"] = f"{{!knn f=vector topK=25}}{updated_query_vector}"
             headers = {
                 "Content-Type": "application/x-www-form-urlencoded"
             }
@@ -178,7 +194,7 @@ def main(mode):
 
 
 if __name__ == "__main__":
-
+    """
     modes = {
         1: "Core disorders 01.",
         2: "Core disorders 02.",
@@ -202,7 +218,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args)
-    #main(5)
+    """
+    main(6)
 
 
 
