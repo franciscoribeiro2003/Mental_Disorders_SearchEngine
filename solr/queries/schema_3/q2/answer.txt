@@ -99,7 +99,7 @@ Document:
   link: https://en.wikipedia.org/wiki/Pervasive_refusal_syndrome
 ----------------------------------
 
-Document:
+20 Document:
   name: Disruptive mood dysregulation disorder
   link: https://en.wikipedia.org/wiki/Disruptive_mood_dysregulation_disorder
 ----------------------------------
