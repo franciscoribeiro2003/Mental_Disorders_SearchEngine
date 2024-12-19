@@ -5,6 +5,12 @@ INFO_SCRIPT=scripts/info.py
 SEARCH_SCRIPT=scripts/search.py
 QUERIES_SCRIPT=scripts/queries.py
 EVAL_SCRIPT=scripts/evaluation.py
+IMAGE_NAME = md-frontend
+CONTAINER_NAME = md-frontend
+DOCKERFILE_PATH = frontend/Dockerfile
+BUILD_CONTEXT = frontend
+LOCAL_APP_DIR = ./frontend
+CONTAINER_APP_DIR = /app
 
 
 # Help command to display available options
@@ -29,6 +35,10 @@ help:
 	@echo "     search_test <schema int>                    - Test Solr search"
 	@echo "     queries <schema int> <query settings int>   - Queries Solr search"
 	@echo "     evaluation <milestone int> <mode>   -evaluate queries ( mode: combined, seperate or .)"
+	@echo "  - Frontend:"
+	@echo "     run_frontend                                - Run frontend server"
+	@echo "     build_frontend                              - Build frontend image"
+	@echo "     clean_frontend                              - Clean frontend image"
 	@echo  " Other"
 	@echo "     clean               - Remove specified input file"
 	@echo "     help                - Show this help"
@@ -129,6 +139,31 @@ evaluation:
 # Test Solr search, choose mode 1 for a core with a less complex schema, and mode 2 for a core with a more complex schema
 search_test:
 	$(PYTHON) $(SEARCH_SCRIPT) $(file1)
+
+# Run frontend server with live updates
+run_frontend:
+	docker run -d -p 81:81 --name $(CONTAINER_NAME) \
+	-v $(LOCAL_APP_DIR):$(CONTAINER_APP_DIR) $(IMAGE_NAME)
+
+# Build frontend image
+build_frontend:
+	docker build -t $(IMAGE_NAME) -f $(DOCKERFILE_PATH) $(BUILD_CONTEXT)
+
+# Stop and remove the container
+down_frontend:
+	docker stop $(CONTAINER_NAME) || true
+	docker rm $(CONTAINER_NAME) || true
+
+rmi_frontend:
+	docker rmi -f $(IMAGE_NAME) || true
+
+# Clean frontend image
+clean_frontend: down_frontend rmi_frontend
+
+# logs
+logs_frontend:
+	docker logs -f $(CONTAINER_NAME)
+
 # Clean command to remove any generated or intermediate files
 clean:
 	rm -f $(file1)
