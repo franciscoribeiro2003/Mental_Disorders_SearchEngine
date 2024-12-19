@@ -30,14 +30,28 @@ def search_solr(query, mode=3, core=3):
         params = {
             "q": query,
             "defType": "edismax",
-            "qf": "description^3 symptoms^2 causes^2 epidemiology^1.5 content^1",
-            "pf": "description symptoms",
-            "ps": 2,
-            "ps2": 1,
-            "wt": "json",
-            "debugQuery": "true",
-            "fl": "name,link,score"
+            "qf": "description^3 symptoms^2 causes^2 treatment^1.7 diagnosis^1.5 prevention^1.0 epidemiology^1.5 content^0.5",
+            "pf": "description^4 symptoms^2 causes^2",  # Phrase boost for field relevance
+            "ps": 2,  # Phrase slop allows slight separation in terms
+            "ps2": 1,  # Phrase slop for longer phrases
+            "wt": "json",  # JSON response format
+            "rows": 25,  # Number of results to return
+            "fl": "name, link, description, symptoms, epidemiology, score"  # Fields to return
         }
+    elif mode == 6:  # Hybrid Search
+        params = {
+            "defType": "edismax",
+            "q": f"{query}^0.3",
+            "bq": f"{{!knn f=vector}}{embedding}",
+            "qf": "description^3 symptoms^2 causes^2 treatment^1.7 diagnosis^1.5 prevention^1.0 epidemiology^1.5 content^0.5",
+            "pf": "description^4 symptoms^2 causes^2",
+            "fl": "name,link,score",
+            "rows": "25",
+            "wt": "json",
+            "ps": "2",
+            "ps2": "1"
+        }
+
     else:
         params = {
             "q": f"{{!knn f=vector topK=25}}{embedding}",
@@ -111,7 +125,7 @@ def home():
 @app.route('/search')
 def search():
     query = request.args.get('q', '')
-    mode = int(request.args.get('mode', 3))
+    mode = int(request.args.get('mode', 6))
     core = int(request.args.get('core', 3))
 
     if not query:
