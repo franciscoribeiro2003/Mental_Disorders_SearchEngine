@@ -170,6 +170,40 @@ def evaluate(query: int, schema: str) -> list:
     return [stats, results]
 
 
+
+
+def combine_all_queries_graph(results: dict, schemas: list[int]) -> None:
+    plt.figure()
+
+    for schema in schemas:
+        all_precision_results = []
+        all_recall_results = []
+
+        for query in range(1, QUERIES + 1):
+            precision_results = [round(v, 2) for v in precision_values(results[schema, query])]
+            recall_results = [round(v, 2) for v in recall_values(results[schema, query])]
+            all_precision_results.append(precision_results)
+            all_recall_results.append(recall_results)
+
+        # Calculate average precision and recall values
+        avg_precision_results = [sum(x) / len(x) for x in zip(*all_precision_results)]
+        avg_recall_results = [sum(x) / len(x) for x in zip(*all_recall_results)]
+
+        x = [round(0.04 * x, 2) for x in range(1, 26)]
+        y = acc_results(avg_precision_results, avg_recall_results)
+
+        schema_name = schemas_dict[schema]
+        plt.plot(x, y, label=f'Average Precision-Recall Curve ({schema_name} schema)')
+
+    plt.xlim(0, 1.1)
+    plt.ylim(0, 1.1)
+    plt.xlabel('Recall')
+    plt.ylabel('Precision')
+    plt.title('Average Precision-Recall Curve Comparison for All Queries')
+    plt.legend()
+    plt.savefig(f"../solr/evaluation/combined_PR_curve_all_queries.png")
+    plt.close()
+
 def main(milestone, mode):
 
     schemas = [1,2]
@@ -196,10 +230,12 @@ def main(milestone, mode):
         elif mode == ".":
             compute_rcs(results, query)
             precision_recall_compare(results, query, schemas)
+
         else:
             print("Invalid mode. Please provide 'separate', 'combined' or '.'.")
             return
 
+    combine_all_queries_graph(results, schemas)
     output = {
         'Results per query and per mode': stats,
         'Global MAP': mean_average_precision(stats, schemas),

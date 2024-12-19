@@ -1,0 +1,135 @@
+Enter your question: Frequent on childrens
+using Rocchio for query:'Frequent on childrens (4)'
+[0, 2, 3, 4, 5, 6, 8, 9, 11, 12, 13, 14, 16, 19, 20, 21]
+[1, 7, 10, 15, 17, 18, 22, 23, 24]
+
+Request URL: http://localhost:8983/solr/disorders03/select
+
+25 documents found.
+
+1. Document:
+  name: Cerebral gigantism
+  link: https://en.wikipedia.org/wiki/Cerebral_gigantism
+----------------------------------
+
+2. Document:
+  name: PANDAS
+  link: https://en.wikipedia.org/wiki/PANDAS
+----------------------------------
+
+3. Document:
+  name: Alternating hemiplegia of childhood
+  link: https://en.wikipedia.org/wiki/Alternating_hemiplegia_of_childhood
+----------------------------------
+
+4. Document:
+  name: Sotos syndrome
+  link: https://en.wikipedia.org/wiki/Sotos_syndrome
+----------------------------------
+
+5. Document:
+  name: Landau–Kleffner syndrome
+  link: https://en.wikipedia.org/wiki/Landau%E2%80%93Kleffner_syndrome
+----------------------------------
+
+6. Document:
+  name: Alexander Disease
+  link: https://en.wikipedia.org/wiki/Alexander_Disease
+----------------------------------
+
+7. Document:
+  name: Dravet syndrome
+  link: https://en.wikipedia.org/wiki/Dravet_syndrome
+----------------------------------
+
+8. Document:
+  name: Angelman syndrome
+  link: https://en.wikipedia.org/wiki/Angelman_syndrome
+----------------------------------
+
+9. Document:
+  name: Apraxia
+  link: https://en.wikipedia.org/wiki/Apraxia
+----------------------------------
+
+10. Document:
+  name: Tourette syndrome
+  link: https://en.wikipedia.org/wiki/Tourette_syndrome
+----------------------------------
+
+11. Document:
+  name: Tay–Sachs disease
+  link: https://en.wikipedia.org/wiki/Tay%E2%80%93Sachs_disease
+----------------------------------
+
+12. Document:
+  name: Shaken baby syndrome
+  link: https://en.wikipedia.org/wiki/Shaken_baby_syndrome
+----------------------------------
+
+13. Document:
+  name: Cerebral palsy
+  link: https://en.wikipedia.org/wiki/Cerebral_palsy
+----------------------------------
+
+14. Document:
+  name: O'Sullivan–McLeod syndrome
+  link: https://en.wikipedia.org/wiki/O%27Sullivan%E2%80%93McLeod_syndrome
+----------------------------------
+
+15. Document:
+  name: West syndrome
+  link: https://en.wikipedia.org/wiki/West_syndrome
+----------------------------------
+
+16. Document:
+  name: Paroxysmal attacks
+  link: https://en.wikipedia.org/wiki/Paroxysmal_attacks
+----------------------------------
+
+17. Document:
+  name: Ohtahara syndrome
+  link: https://en.wikipedia.org/wiki/Ohtahara_syndrome
+----------------------------------
+
+18. Document:
+  name: Sanfilippo syndrome
+  link: https://en.wikipedia.org/wiki/Sanfilippo_syndrome
+----------------------------------
+
+19. Document:
+  name: Infantile spasms
+  link: https://en.wikipedia.org/wiki/Infantile_spasms
+----------------------------------
+
+20. Document:
+  name: Rett syndrome
+  link: https://en.wikipedia.org/wiki/Rett_syndrome
+----------------------------------
+
+21. Document:
+  name: Selective mutism
+  link: https://en.wikipedia.org/wiki/Selective_mutism
+----------------------------------
+
+22. Document:
+  name: Disinhibited social engagement disorder
+  link: https://en.wikipedia.org/wiki/Disinhibited_social_engagement_disorder
+----------------------------------
+
+23. Document:
+  name: Melkersson–Rosenthal syndrome
+  link: https://en.wikipedia.org/wiki/Melkersson%E2%80%93Rosenthal_syndrome
+----------------------------------
+
+24. Document:
+  name: Hirayama syndrome
+  link: https://en.wikipedia.org/wiki/Hirayama_syndrome
+----------------------------------
+
+25. Document:
+  name: Coffin–Lowry syndrome
+  link: https://en.wikipedia.org/wiki/Coffin%E2%80%93Lowry_syndrome
+----------------------------------
+
+--- End of Results ---

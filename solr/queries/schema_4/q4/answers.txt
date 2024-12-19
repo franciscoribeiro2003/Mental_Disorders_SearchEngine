@@ -1,0 +1,133 @@
+Enter your question: Frequent on childrens
+using pseudo-Rocchio for query:'Frequent on childrens'
+
+Request URL: http://localhost:8983/solr/disorders03/select
+
+25 documents found.
+
+1. Document:
+  name: Alternating hemiplegia of childhood
+  link: https://en.wikipedia.org/wiki/Alternating_hemiplegia_of_childhood
+----------------------------------
+
+2. Document:
+  name: PANDAS
+  link: https://en.wikipedia.org/wiki/PANDAS
+----------------------------------
+
+3. Document:
+  name: Pedophilia
+  link: https://en.wikipedia.org/wiki/Pedophilia
+----------------------------------
+
+4. Document:
+  name: Cerebral gigantism
+  link: https://en.wikipedia.org/wiki/Cerebral_gigantism
+----------------------------------
+
+5. Document:
+  name: Sotos syndrome
+  link: https://en.wikipedia.org/wiki/Sotos_syndrome
+----------------------------------
+
+6. Document:
+  name: Landau–Kleffner syndrome
+  link: https://en.wikipedia.org/wiki/Landau%E2%80%93Kleffner_syndrome
+----------------------------------
+
+7. Document:
+  name: Angelman syndrome
+  link: https://en.wikipedia.org/wiki/Angelman_syndrome
+----------------------------------
+
+8. Document:
+  name: Paroxysmal attacks
+  link: https://en.wikipedia.org/wiki/Paroxysmal_attacks
+----------------------------------
+
+9. Document:
+  name: Dravet syndrome
+  link: https://en.wikipedia.org/wiki/Dravet_syndrome
+----------------------------------
+
+10. Document:
+  name: Tourette syndrome
+  link: https://en.wikipedia.org/wiki/Tourette_syndrome
+----------------------------------
+
+11. Document:
+  name: Disinhibited social engagement disorder
+  link: https://en.wikipedia.org/wiki/Disinhibited_social_engagement_disorder
+----------------------------------
+
+12. Document:
+  name: Alexander Disease
+  link: https://en.wikipedia.org/wiki/Alexander_Disease
+----------------------------------
+
+13. Document:
+  name: Disruptive mood dysregulation disorder
+  link: https://en.wikipedia.org/wiki/Disruptive_mood_dysregulation_disorder
+----------------------------------
+
+14. Document:
+  name: Persistent genital arousal disorder
+  link: https://en.wikipedia.org/wiki/Persistent_genital_arousal_disorder
+----------------------------------
+
+15. Document:
+  name: Prader–Willi syndrome
+  link: https://en.wikipedia.org/wiki/Prader%E2%80%93Willi_syndrome
+----------------------------------
+
+16. Document:
+  name: Conduct disorder
+  link: https://en.wikipedia.org/wiki/Conduct_disorder
+----------------------------------
+
+17. Document:
+  name: Reactive attachment disorder
+  link: https://en.wikipedia.org/wiki/Reactive_attachment_disorder
+----------------------------------
+
+18. Document:
+  name: Kleine–Levin syndrome
+  link: https://en.wikipedia.org/wiki/Kleine%E2%80%93Levin_syndrome
+----------------------------------
+
+19. Document:
+  name: Shaken baby syndrome
+  link: https://en.wikipedia.org/wiki/Shaken_baby_syndrome
+----------------------------------
+
+20. Document:
+  name: Coffin–Lowry syndrome
+  link: https://en.wikipedia.org/wiki/Coffin%E2%80%93Lowry_syndrome
+----------------------------------
+
+21. Document:
+  name: Obsessive–compulsive personality disorder
+  link: https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_personality_disorder
+----------------------------------
+
+22. Document:
+  name: Pervasive developmental disorder
+  link: https://en.wikipedia.org/wiki/Pervasive_developmental_disorder
+----------------------------------
+
+23. Document:
+  name: O'Sullivan–McLeod syndrome
+  link: https://en.wikipedia.org/wiki/O%27Sullivan%E2%80%93McLeod_syndrome
+----------------------------------
+
+24. Document:
+  name: Rett syndrome
+  link: https://en.wikipedia.org/wiki/Rett_syndrome
+----------------------------------
+
+25. Document:
+  name: Cerebral palsy
+  link: https://en.wikipedia.org/wiki/Cerebral_palsy
+----------------------------------
+
+--- End of Results ---

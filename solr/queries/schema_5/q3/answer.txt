@@ -1,0 +1,135 @@
+Enter your question: Improvement with behavioral therapies
+using Rocchio for query:'Improvement with behavioral therapies (3)'
+[0, 1, 3, 5, 6, 7, 13, 14, 15, 16, 17, 21, 22, 23, 24]
+[2, 4, 8, 9, 10, 11, 12, 18, 19, 20]
+
+Request URL: http://localhost:8983/solr/disorders03/select
+
+25 documents found.
+
+1. Document:
+  name: Body-focused repetitive behavior disorder
+  link: https://en.wikipedia.org/wiki/Body-focused_repetitive_behavior
+----------------------------------
+
+2. Document:
+  name: Conduct disorder
+  link: https://en.wikipedia.org/wiki/Conduct_disorder
+----------------------------------
+
+3. Document:
+  name: Gambling disorder
+  link: https://en.wikipedia.org/wiki/Gambling_disorder
+----------------------------------
+
+4. Document:
+  name: Oppositional defiant disorder
+  link: https://en.wikipedia.org/wiki/Oppositional_defiant_disorder
+----------------------------------
+
+5. Document:
+  name: Attention deficit hyperactivity disorder
+  link: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+----------------------------------
+
+6. Document:
+  name: Compulsive sexual behaviour disorder
+  link: https://en.wikipedia.org/wiki/Compulsive_sexual_behaviour_disorder
+----------------------------------
+
+7. Document:
+  name: Passive–aggressive personality disorder
+  link: https://en.wikipedia.org/wiki/Passive%E2%80%93aggressive_personality_disorder
+----------------------------------
+
+8. Document:
+  name: Disruptive mood dysregulation disorder
+  link: https://en.wikipedia.org/wiki/Disruptive_mood_dysregulation_disorder
+----------------------------------
+
+9. Document:
+  name: Self-defeating personality disorder
+  link: https://en.wikipedia.org/wiki/Self-defeating_personality_disorder
+----------------------------------
+
+10. Document:
+  name: Excoriation disorder
+  link: https://en.wikipedia.org/wiki/Excoriation_disorder
+----------------------------------
+
+11. Document:
+  name: Exercise addiction
+  link: https://en.wikipedia.org/wiki/Exercise_addiction
+----------------------------------
+
+12. Document:
+  name: Dermatillomania
+  link: https://en.wikipedia.org/wiki/Dermatillomania
+----------------------------------
+
+13. Document:
+  name: Body dysmorphic disorder
+  link: https://en.wikipedia.org/wiki/Body_dysmorphic_disorder
+----------------------------------
+
+14. Document:
+  name: Antisocial personality disorder
+  link: https://en.wikipedia.org/wiki/Antisocial_personality_disorder
+----------------------------------
+
+15. Document:
+  name: Reactive attachment disorder
+  link: https://en.wikipedia.org/wiki/Reactive_attachment_disorder
+----------------------------------
+
+16. Document:
+  name: Histrionic personality disorder
+  link: https://en.wikipedia.org/wiki/Histrionic_personality_disorder
+----------------------------------
+
+17. Document:
+  name: Pornography addiction
+  link: https://en.wikipedia.org/wiki/Pornography_addiction
+----------------------------------
+
+18. Document:
+  name: Shopping addiction
+  link: https://en.wikipedia.org/wiki/Shopping_addiction
+----------------------------------
+
+19. Document:
+  name: Avoidant personality disorder
+  link: https://en.wikipedia.org/wiki/Avoidant_personality_disorder
+----------------------------------
+
+20. Document:
+  name: Attention deficit disorder without hyperactivity
+  link: https://en.wikipedia.org/wiki/Attention_deficit_disorder_without_hyperactivity
+----------------------------------
+
+21. Document:
+  name: Dystonia
+  link: https://en.wikipedia.org/wiki/Dystonia
+----------------------------------
+
+22. Document:
+  name: Sexual addiction
+  link: https://en.wikipedia.org/wiki/Sexual_addiction
+----------------------------------
+
+23. Document:
+  name: Video game addiction
+  link: https://en.wikipedia.org/wiki/Video_game_addiction
+----------------------------------
+
+24. Document:
+  name: Disinhibited social engagement disorder
+  link: https://en.wikipedia.org/wiki/Disinhibited_social_engagement_disorder
+----------------------------------
+
+25. Document:
+  name: Sadistic personality disorder
+  link: https://en.wikipedia.org/wiki/Sadistic_personality_disorder
+----------------------------------
+
+--- End of Results ---

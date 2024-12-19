@@ -1,0 +1,133 @@
+Enter your question: Improvement with behavioral therapies
+using pseudo-Rocchio for query:'Improvement with behavioral therapies'
+
+Request URL: http://localhost:8983/solr/disorders03/select
+
+25 documents found.
+
+1. Document:
+  name: Attention deficit hyperactivity disorder
+  link: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+----------------------------------
+
+2. Document:
+  name: Oppositional defiant disorder
+  link: https://en.wikipedia.org/wiki/Oppositional_defiant_disorder
+----------------------------------
+
+3. Document:
+  name: Body-focused repetitive behavior disorder
+  link: https://en.wikipedia.org/wiki/Body-focused_repetitive_behavior
+----------------------------------
+
+4. Document:
+  name: Episode of harmful use of Sedative, hypnotic or anxiolytic
+  link: https://en.wikipedia.org/wiki/Sedative
+----------------------------------
+
+5. Document:
+  name: Sedative, hypnotic or anxiolytic intoxication
+  link: https://en.wikipedia.org/wiki/Sedative
+----------------------------------
+
+6. Document:
+  name: Attention deficit disorder without hyperactivity
+  link: https://en.wikipedia.org/wiki/Attention_deficit_disorder_without_hyperactivity
+----------------------------------
+
+7. Document:
+  name: Disruptive mood dysregulation disorder
+  link: https://en.wikipedia.org/wiki/Disruptive_mood_dysregulation_disorder
+----------------------------------
+
+8. Document:
+  name: Compulsive sexual behaviour disorder
+  link: https://en.wikipedia.org/wiki/Compulsive_sexual_behaviour_disorder
+----------------------------------
+
+9. Document:
+  name: Gambling disorder
+  link: https://en.wikipedia.org/wiki/Gambling_disorder
+----------------------------------
+
+10. Document:
+  name: Sedative, hypnotic or anxiolytic induced anxiety
+  link: https://en.wikipedia.org/wiki/Sedative,_hypnotic,_or_anxiolytic_use_disorder
+----------------------------------
+
+11. Document:
+  name: Conduct disorder
+  link: https://en.wikipedia.org/wiki/Conduct_disorder
+----------------------------------
+
+12. Document:
+  name: Sedative, hypnotic or anxiolytic induced mood disorder
+  link: https://en.wikipedia.org/wiki/Sedative,_hypnotic,_or_anxiolytic_use_disorder
+----------------------------------
+
+13. Document:
+  name: Dissociative drugs including ketamine and phencyclidine [PCP] induced anxiety
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+14. Document:
+  name: Sedative, hypnotic or anxiolytic induced delirium
+  link: https://en.wikipedia.org/wiki/Sedative,_hypnotic,_or_anxiolytic_use_disorder
+----------------------------------
+
+15. Document:
+  name: Sedative, hypnotic or anxiolytic induced psychotic disorder
+  link: https://en.wikipedia.org/wiki/Sedative,_hypnotic,_or_anxiolytic_use_disorder
+----------------------------------
+
+16. Document:
+  name: Sedative, hypnotic or anxiolytic withdrawal
+  link: https://en.wikipedia.org/wiki/Sedative,_hypnotic,_or_anxiolytic_use_disorder
+----------------------------------
+
+17. Document:
+  name: Dissociative drugs including ketamine and phencyclidine [PCP] induced psychotic disorder
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+18. Document:
+  name: Dissociative drugs including ketamine and phencyclidine [PCP] induced mood disorder
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+19. Document:
+  name: Episode of harmful use of dissociative drugs including ketamine and phencyclidine [PCP]
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+20. Document:
+  name: Sedative, hypnotic or anxiolytic dependence
+  link: https://en.wikipedia.org/wiki/Sedative,_hypnotic,_or_anxiolytic_use_disorder
+----------------------------------
+
+21. Document:
+  name: Tardive dyskinesia
+  link: https://en.wikipedia.org/wiki/Tardive_dyskinesia
+----------------------------------
+
+22. Document:
+  name: Harmful pattern of use of dissociative drugs including ketamine and phencyclidine [PCP]
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+23. Document:
+  name: Dissociative drugs including ketamine and phencyclidine [PCP] withdrawal
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+24. Document:
+  name: Dissociative drugs including ketamine and phencyclidine [PCP] dependence
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+25. Document:
+  name: Dissociative drugs including ketamine and phencyclidine [PCP] induced delirium
+  link: https://en.wikipedia.org/wiki/Dissociative
+----------------------------------
+
+--- End of Results ---

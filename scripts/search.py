@@ -201,7 +201,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(3)
+    main(args)
+    #main(5)
 
 
 
